@@ -1,0 +1,123 @@
+<song>
+  <info world="2" level="3" MP3Name="liftoff" endtime="97.5" name="Liftoff"/>
+  <color object="circle" red="255" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="overlay" red="124" green="87" blue="61" fadetime="0" time="0" alpha="80"/>
+  <color object="background" red="40" green="40" blue="40" fadetime="0" time="0"/>
+  <color object="shooter" red="255" green="255" blue="255" fadetime="0" time="0"/>
+  <shoot type="multishot" angle="0" speed="4.3" time="0.1" amount="2" delay=".4"/> //dont have time zero, it's broken due to the way unity works
+  <shoot type="multishot" angle="10" speed="4.3" time=".6" amount="2" delay=".2"/>
+  <shoot type="multishot" angle="-10" speed="4.3" time="1" amount="2" delay=".2"/>
+  <shoot type="single" angle="-30" speed="4" time="1.7"/>
+  <shoot type="multishot" angle="-50" speed="4" time="2.1" amount="2" delay=".2"/>
+  <shoot type="single" angle="-70" speed="3" time="2.36"/>
+  <shoot type="multishot" angle="-45" speed="3" time="3.21" amount="2" delay=".2"/>
+  <shoot type="multishot" angle="-30" speed="3" time="3.64" amount="4" delay=".24"/>
+  <shoot type="single" angle="0" speed="3" time="4.7"/>
+  <shoot type="single" angle="10" speed="3" time="5.45"/>
+  <shoot type="single" angle="25" speed="3" time="5.99"/>
+  <shoot type="spread" angle="35" speed="3" time="6.42" amount="4" delay=".2" direction="CounterClockwise" spacing="10"/>
+  <shoot type="multishot" angle="65" speed="3" time="7.2" amount="4" delay=".2"/>
+  <shoot type="single" angle="80" speed="3" time="8.2"/>
+  <shoot type="single" angle="95" speed="3" time="8.5"/>
+  <shoot type="multishot" angle="80" speed="3" time="8.8" amount="2" delay=".2"/>
+  <shoot type="multishot" angle="110" speed="3" time="9.6" amount="3" delay=".4"/>
+  <shoot type="spread" angle="130" speed="3" time="10.8" amount="6" delay=".2" spacing="12" direction="Clockwise"/>
+  <shoot type="multishot" angle="40" speed="3" time="12.5" amount="2" delay=".4"/>
+  <shoot type="zigshot" angle="20" speed="3" time="13.3" amount="2" delay=".2" spacing="15"/>
+  <shoot type="zigshot" angle="0" speed="3" time="13.9" amount="2" delay=".2" spacing="15"/>
+  <shoot type="zigshot" angle="10" speed="3" time="14.5" amount="2" delay=".2" spacing="15"/>
+  <shoot type="zigshot" angle="-10" speed="3" time="15.1" amount="2" delay=".2" spacing="15"/>
+  <shoot type="single" angle="-10" speed="3" time="15.6"/>
+  <shoot type="spread" angle="-20" speed="3" time="16.5" amount="3" delay=".2" spacing="15" direction="CounterClockwise"/>
+  <shoot type="zigshot" angle="-40" speed="3" time="17.6" spacing="10" delay=".2" amount="2"/>
+  <shoot type="zigshot" angle="-50" speed="3" time="18" spacing="10" delay=".2" amount="2"/>
+  <shoot type="single" angle ="-90" speed="3" time="19.2"/>
+  <shoot type="zigshot" angle="-110" speed="3" time="20.7" spacing="-15" delay=".5" amount="2"/>
+  <shoot type="zigshot" angle="-130" speed="3" time="22" spacing="15" delay=".2" amount="3"/>
+  <shoot type="single" angle="-90" speed="3" time="24.5"/>
+  <color object="overlay" red="0" green="0" blue="0" fadetime=".5" time="26.6" alpha="255"/>
+  <color object="background" red="0" green="191" blue="255" fadetime="0" time="27.15"/>
+  <color object="bullets" red="255" green="255" blue="255" fadetime="0" time="27.15"/>
+  <color object="overlay" red="0" green="0" blue="0" alpha="0" fadetime=".5" time="27.5"/>
+  <shoot type="zigshot" angle="-110" speed="3" time="27.8" delay=".2" spacing="15" amount="5" />
+  <shoot type="multishot" angle="-120" speed="3" time="29" delay=".25" amount="2"/>
+  <shoot type="single" angle="-140" speed="3" time="29.5" />
+  <shoot type="spread" angle="-160" speed="3" time="30.2" direction="CounterClockwise" amount="4" delay=".2" spacing="15"/>
+  <shoot type="multishot" angle="-50" speed="3" time="31.5" amount="2" delay=".2"/>
+  <shoot type="single" angle="-40" speed="3" time="31.8" />
+  <shoot type="multishot" angle="-50" speed="3" time="32.1" amount="2" delay=".2"/>
+  <shoot type="single" angle="-120" speed="3" time="33.2"/>
+  <shoot type="single" angle="-90" speed="3" time="33.9"/>
+  <shoot type="single" angle="-70" speed="3" time="34.6"/>
+  <shoot type="zigshot" angle="-50" speed="3" time="35.5" delay=".35" spacing="12" amount="3"/>
+  <shoot type="single" angle="-60" speed="3" time="36.35"/>
+  <shoot type="single" angle="-90" speed="3" time="37"/>
+  <shoot type="zigshot" angle="-110" speed="3" time="38" delay=".2" spacing="15" amount="3"/>
+  <shoot type="spread" angle="-100" speed="3" time="38.7" delay=".3" spacing="15" amount="3" direction="Clockwise"/>
+  <color object="overlay" red="255" green="255" blue="255" alpha="255" time="41" fadetime="1.5"/>
+  <color object="background" red="0" green="0" blue="0" time="42.5" fadetime="0"/>
+  <color object="circle" red="255" green="103" blue="255" time="42.5" fadetime="0"/>
+  <color object="shooter" red="255" green="103" blue="255" time="42.5" fadetime="0"/>
+  <color object="bullets" red="255" green="103" blue="255" time="42.5" fadetime="0"/>
+  <color object="overlay" red="0" green="0" blue="0" alpha="0" time="42.6" fadetime=".7"/>
+  <object type="create" xpos="-7.18" ypos="2.5" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="-6.29" ypos="-0.82" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="-7.44" ypos="-3.39" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="5.9" ypos="-3.39" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="7.35" ypos="-1.26" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="5.57" ypos="1.27" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="7.44" ypos="3.52" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="2.41" ypos="1.93" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="-1.31" ypos="-2.47" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="-3.28" ypos="0.74" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="-0.49" ypos="3.57" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="2.13" ypos="-3.59" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <object type="create" xpos="-5.1" ypos="3.81" zpos="0" length=".05" height=".05" rotation="0" red="255" green="103" blue="255" alpha="255" id="1" time="42.5"/>
+  <shoot type="zigshot" angle="-84" speed="4" time="42.7" delay=".2" spacing="-12" amount="4"/>
+  <shoot type="spread" angle="-100" speed="4" time="44" delay=".3" amount="4" direction="Clockwise" spacing="15"/>
+  <shoot type="multishot" angle="-170" speed="4" time="45.6" amount="2" delay=".25"/>
+  <shoot type="multishot" angle="-155" speed="4" time="46.5" amount="2" delay=".25"/>
+  <shoot type="spread" angle="-130" speed="4" time="47.3" amount="12" direction="CounterClockwise" delay="0.1341" spacing="20"/>
+  <shoot type="single" angle="90" speed="4" time="49.7" />
+  <shoot type="spread" angle="75" speed="4" time="50" amount="3" spacing="12" direction="CounterClockwise" delay=".3"/>
+  <shoot type="zigshot" angle="100" time="51.1" speed="4" amount="7" spacing="5" delay=".2" />
+  <shoot type="spread" angle="90" speed="4" time="52.4" amount="3" spacing="20" delay="0.1341" direction="Clockwise"/>
+  <shoot type="spread" angle="50" speed="4" time="53" amount="20" spacing="20" delay="0.1341" direction="CounterClockwise"/>
+  <shoot type="single" angle="100" speed="4" time="56.3"/>
+  <shoot type="zigshot" angle="115" speed="4" time="57.7" spacing="15" delay=".3" amount="3"/>
+  <shoot type="multishot" angle="115" speed="4" time="58.55" amount="2" delay=".3"/>
+  <shoot type="zigshot" angle="85" speed="4" time="59.3" amount="4" delay=".4" spacing="20"/>
+  <shoot type="single" angle="105" speed="4" time="60.7"/>
+  <shoot type="spread" angle="110" speed="4" time="61.3" amount="9" delay=".1341" spacing="20" direction="Clockwise"/>
+  <shoot type="spread" angle="-70" speed="4" time="63.2" amount="5" delay=".1341" spacing="20" direction="CounterClockwise"/>
+  <shoot type="spread" angle="10" speed="4" time="64.2" amount="16" delay=".1341" spacing="20" direction="Clockwise"/>
+  <shoot type="spread" angle="30" speed="4" time="66.5" amount="19" delay=".1341" spacing="20" direction="CounterClockwise"/>
+  <shoot type="single" angle="0" speed="4" time="69.9"/>
+  <shoot type="single" angle="-30" speed="4" time="70.5"/>
+  <shoot type="zigshot" angle="-45" speed="4" time="71.4" amount="3" delay=".15" spacing="15"/>
+  <shoot type="spread" angle="-50" speed="4" time="73.2" amount="23" delay=".1334" spacing="20" direction="Clockwise"/>
+  <shoot type="spread" angle="-120" speed="4" time="76.3" amount="8" delay=".1341" spacing="20" direction="CounterClockwise"/>
+  <shoot type="spread" angle="0" speed="4" time="77.4" amount="3" delay=".1341" spacing="20" direction="Clockwise"/>
+  <shoot type="spread" angle="-60" speed="4" time="78" amount="12" delay=".1341" spacing="20" direction="CounterClockwise"/>
+  <shoot type="multishot" angle="180" speed="4" time="79.8" amount="2" delay=".2"/>
+  <shoot type="multishot" angle="190" speed="4" time="80.3" amount="5" delay=".2"/>
+  <shoot type="zigshot" angle="180" speed="4" time="81.5" amount="2" delay=".2" spacing="15"/>
+  <shoot type="zigshot" angle="190" speed="4" time="82.1" amount="2" delay=".2" spacing="-15"/>
+  <shoot type="zigshot" angle="170" speed="4" time="82.7" amount="2" delay=".2" spacing="15"/>
+  <shoot type="multishot" angle="160" speed="4" time="83.3" amount="2" delay=".1"/>
+  <shoot type="single" angle="145" speed="4" time="83.9"/>
+  <shoot type="multishot" angle="130" speed="4" time="84.5" amount="2" delay=".1"/>
+  <shoot type="zigshot" angle="120" speed="4" time="85.1" amount="6" delay=".3" spacing="15"/>
+  <shoot type="multishot" angle="150" speed="4" time="86.9" amount="2" delay=".2"/>
+  <shoot type="zigshot" angle="160" speed="4" time="87.5" amount="3" delay=".2" spacing="-10"/>
+  <shoot type="single" angle="160" speed="4" time="88.1"/>
+  <shoot type="heptagon" angle="180" speed="4" time="88.4"/>
+  <shoot type="spread" angle="150" speed="4" time="88.7" amount="9" delay=".1341" spacing="20" direction="Clockwise"/>
+  <shoot type="zigshot" angle="-30" speed="4" time="90.2" amount="6" delay=".1" spacing="3"/>
+  <shoot type="zigshot" angle="-42" speed="4" time="91" amount="2" delay=".1" spacing="3"/>
+  <shoot type="zigshot" angle="-56" speed="4" time="91.35" amount="3" delay=".1" spacing="3"/>
+  <shoot type="spread" angle="-70" speed="4" time="92.2" amount="25" delay=".1338" spacing="20" direction="CounterClockwise"/>
+  <shoot type="zigshot" angle="90" speed="4" time="95.7" amount="9" delay=".1" spacing="2"/>
+
+  <shoot type="hexagon" angle="180" speed="3" time="41.5"/>
+</song>

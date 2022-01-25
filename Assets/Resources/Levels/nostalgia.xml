@@ -1,0 +1,236 @@
+<song>
+  <info world="1" level="3" MP3Name="nostalgia" endtime="84" name="Nostalgia"/>
+  
+  <color object="overlay" red="0" green="0" blue="0" fadetime="0" time="0" alpha="0"/>
+  <color object="background" red="19" green="8" blue="40" fadetime="0" time="0"/>
+  <color object="circle" red="147" green="63" blue="250" fadetime="0" time="0"/>
+  <color object="shooter" red="147" green="63" blue="250" fadetime="0" time="0"/>
+  <color object="bullets" red="147" green="63" blue="250" fadetime="0" time="0"/>
+  <object type="bulletcollision"/>
+
+  <object type="create" xpos=".15" ypos="-.51" zpos="0" length="1.2" height="1" rotation="0" red="0" green="0" blue="0" alpha="0" id="0" time="0"/>
+  <object type="create" xpos=".15" ypos=".51" zpos="0" length="1.2" height="1" rotation="180" red="0" green="0" blue="0" alpha="0" id="0" time="0"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime="6" time="0.1" alpha="30"/>
+  <color object="object" red="120" green="47" blue="108" alpha="128" fadetime="6" time=".1" id="0"/>
+  <color object="object" red="120" green="47" blue="108" alpha="128" fadetime="6" time=".1" id="1"/>
+
+  <shoot type="single" angle="0" speed="2.6" time="0"/>
+  <shoot type="single" angle="-30" speed="2" time="1.2"/>
+  <shoot type="single" angle="30" speed="2" time="2.4"/>
+  <shoot type="single" angle="90" speed="2" time="3.8"/>
+  <shoot type="single" angle="0" speed="2" time="5"/>
+  <shoot type="single" angle="-120" speed="2" time="7"/>
+  <shoot type="single" angle="-90" speed="1.38" time="7.01"/>
+  <shoot type="hexagon" angle="90" speed="4" time="10"/>
+  <shoot type="single" angle="-120" speed="2.6" time="10.3"/>
+  <shoot type="spread" angle="-150" speed="2.6" time="11.5" amount="3" delay=".25" direction="CounterClockwise" spacing="15"/>
+  <shoot type="single" angle="-80" speed="2.6" time="13.3"/>
+  <shoot type="spread" angle="-60" speed="2.6" time="14.5" amount="3" delay=".25" direction="Clockwise" spacing="15"/>
+  <shoot type="single" angle="-90" speed="2.6" time="16.3"/>
+  <shoot type="spread" angle="-120" speed="2.6" time="17.5" amount="3" delay=".25" direction="CounterClockwise" spacing="15"/>
+  <shoot type="single" angle="-160" speed="2.6" time="19.3"/>
+  <shoot type="zigshot" angle="-180" speed="2.6" time="20.5" amount="3" delay=".3" spacing="10"/>
+  <shoot type="multishot" angle="-180" speed="2.6" time="21.5" amount="3" delay=".25"/>
+  <shoot type="zigshot" angle="-200" speed="2.6" time="22.4" amount="3" delay=".3" spacing="3"/>
+  <shoot type="multishot" angle="-210" speed="2.6" time="23.5" amount="2" delay=".3"/>
+  <shoot type="heptagon" angle="-195" speed="2.6" time="23.65"/>
+  <shoot type="zigshot" angle="-220" speed="2.6" time="25.1" amount="3" delay=".3" spacing="3"/>
+  <shoot type="multishot" angle="-210" speed="2.6" time="26.3" amount="2" delay=".3"/>
+  <shoot type="zigshot" angle="-230" speed="2.6" time="28.3" amount="3" delay=".3" spacing="3"/>
+  <shoot type="multishot" angle="-240" speed="2.6" time="29.3" amount="2" delay=".3"/>
+  <shoot type="zigshot" angle="-260" speed="2.6" time="31.2" amount="3" delay=".3" spacing="3"/>
+  <shoot type="multishot" angle="-250" speed="2.6" time="32.3" amount="2" delay=".3"/>
+  <shoot type="multishot" angle="-270" speed="2.6" time="34.3" amount="3" delay=".3"/>
+  <shoot type="zigshot" angle="-280" speed="2.6" time="35.4" amount="2" delay=".3" spacing="12"/>
+  <shoot type="multishot" angle="-330" speed="2.6" time="36.9" amount="3" delay=".35"/>
+  <shoot type="zigshot" angle="-350" speed="2.6" time="38.2" amount="2" delay=".35" spacing="-12"/>
+  <shoot type="multishot" angle="0" speed="2.6" time="40" amount="3" delay=".3"/>
+  <shoot type="zigshot" angle="30" speed="2.6" time="41.1" amount="2" delay=".3" spacing="12"/>
+  <shoot type="zigshot" angle="45" speed="2.6" time="42.9" amount="3" delay=".4" spacing="14"/>
+  <shoot type="zigshot" angle="60" speed="2.6" time="44.15" amount="2" delay=".25" spacing="10"/>
+  <shoot type="single" angle="40" speed="2.6" time="47.1"/>
+  <shoot type="zigshot" angle="25" speed="2.6" time="47.5" amount="14" delay=".18" spacing="2.6"/>
+  <shoot type="zigshot" angle="10" speed="2.6" time="50.2" amount="3" delay=".18" spacing="2.6"/>
+  <shoot type="single" angle="0" speed="2.6" time="50.9"/>
+  <shoot type="zigshot" angle="-15" speed="2.6" time="51.3" amount="4" delay=".18" spacing="2.6"/>
+  <shoot type="single" angle="-30" speed="2.6" time="53.1"/>
+  <shoot type="zigshot" angle="-45" speed="2.6" time="53.4" amount="14" delay=".18" spacing="2.6"/>
+  <shoot type="zigshot" angle="-55" speed="2.6" time="56.1" amount="2" delay=".24" spacing="2.6"/>
+  <shoot type="single" angle="-68" speed="2.6" time="56.8"/>
+  <shoot type="zigshot" angle="-80" speed="2.6" time="57.2" amount="7" delay=".18" spacing="2.6"/>
+  <shoot type="zigshot" angle="-65" speed="2.6" time="59.2" amount="3" delay=".18" spacing="2.6"/>
+  <shoot type="zigshot" angle="-50" speed="2.6" time="59.9" amount="3" delay=".18" spacing="2.6"/>
+  <shoot type="zigshot" angle="-30" speed="2.6" time="60.7" amount="7" delay=".18" spacing="2.6"/>
+  <shoot type="zigshot" angle="-20" speed="2.6" time="62.3" amount="2" delay=".23" spacing="5"/>
+  <shoot type="spread" angle="0" speed="2.6" time="62.8" amount="6" delay=".4" direction="CounterClockwise" spacing="8"/>
+  <shoot type="spread" angle="70" speed="2.6" time="65.5" amount="2" delay=".27" direction="Clockwise" spacing="5"/>
+  <shoot type="spread" angle="80" speed="2.6" time="66.2" amount="2" delay=".27" direction="Clockwise" spacing="15"/>
+  <shoot type="spread" angle="50" speed="2.6" time="66.8" amount="4" delay=".4" direction="CounterClockwise" spacing="8"/>
+  <shoot type="zigshot" angle="90" speed="2.6" time="68.4" amount="2" delay=".3" spacing="10"/>
+  <shoot type="spread" angle="80" speed="2.6" time="69.3" amount="3" delay=".27" direction="Clockwise" spacing="10"/>
+  <shoot type="single" angle="60" speed="1.65" time="69.2"/>
+  <shoot type="spread" angle="40" speed="2.6" time="71.5" amount="6" delay=".27" direction="Clockwise" spacing="14"/>
+  <shoot type="zigshot" angle="20" speed="2.6" time="74" amount="2" delay=".2" spacing="10"/>
+  <shoot type="zigshot" angle="20" speed="2.6" time="74.7" amount="3" delay=".2" spacing="-10"/>
+  <shoot type="spread" angle="0" speed="2.6" time="77.2" amount="5" delay=".3" direction="Clockwise" spacing="10"/>
+  <shoot type="zigshot" angle="-50" speed="2.6" time="80" amount="2" delay=".2" spacing="15"/>
+  <shoot type="zigshot" angle="-40" speed="2.6" time="80.8" amount="2" delay=".2" spacing="15"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="11.15" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="11.25" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="12.6" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="11.7" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="14.08" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="14.18" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="15.6" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="15.7" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="17.08" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="17.18" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="18.58" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="18.68" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="19.7" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="19.8" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="20.1" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="20.2" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="21.56" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="21.66" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="23" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="23.1" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="24.54" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="24.64" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="26.02" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="26.12" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="27.48" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="27.58" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="28.96" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="29.06" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="30.47" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="30.57" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="31.95" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="32.05" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="33.44" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="33.54" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="34.93" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="35.03" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="36.42" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="36.52" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="37.87" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="37.97" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="39.4" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="39.5" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="40.87" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="40.97" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="42.37" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="42.47" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="43.5" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="43.6" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="43.9" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="44" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="45.35" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="45.45" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="46.8" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="46.9" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="48.34" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="48.44" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="49.81" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="49.91" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="51.32" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="51.42" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="52.78" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="52.88" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="54.28" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="54.38" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="55.75" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="55.85" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="57.25" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="57.35" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="58.74" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="58.84" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="60.2" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="60.3" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="61.67" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="61.87" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="63.19" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="63.29" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="64.67" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="64.77" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="66.17" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="66.27" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="67.29" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="67.39" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="67.7" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="67.8" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="69.15" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="69.25" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="70.59" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="70.69" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="72.14" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="72.24" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="73.61" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="73.71" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="75.08" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="75.18" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="76.57" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="76.67" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="78.07" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="78.17" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="79.55" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="79.65" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="81.04" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="81.14" alpha="30"/>
+
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".1" time="82.63" alpha="90"/>
+  <color object="overlay" red="50" green="32" blue="132" fadetime=".5" time="82.73" alpha="30"/>
+
+</song>

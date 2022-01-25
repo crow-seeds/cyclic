@@ -1,0 +1,740 @@
+<song>
+  <info world="4" level="3" MP3Name="purgatori" endtime="133" name="Purgatori"/>
+  <color object="circle" red="255" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="background" red="0" green="0" blue="0" fadetime="0" time="0"/>
+  <color object="shooter" red="255" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="bullets" red="255" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="overlay" red="0" green="0" blue="0" fadetime="0" time="0" alpha="0"/>
+  <color object="inner" red="255" green="255" blue="255" fadetime="0" alpha="0" time="0"/>
+
+  <spike type="spread" angle="330" speed="2" time="0.1" amount="23" direction="Clockwise"  delay="0" spacing="15"/>
+  <object type="gameplayVelocity" time="1.5" speed="0"/>
+  <object type="gameplayRotate" time="2" duration="1" degrees="90" xpos="0" ypos="0"/>
+  <object type="gameplayVelocity" time="3" speed="1"/>
+  <spike type="spread" angle="330" speed="2" time="6" amount="23" direction="Clockwise"  delay="0" spacing="15"/>
+  <spike type="spread" angle="330" speed="2" time="6.3" amount="23" direction="Clockwise"  delay="0" spacing="15"/>
+  <object type="gameplayVelocity" time="7.5" speed="0"/>
+  <object type="gameplayVelocity" time="8" speed="1"/>
+  <object type="gameplayRotate" time="8" duration="1" degrees="-90" xpos="0" ypos="0"/>
+  <shoot type="holdcircle" time="10" aliveDuration="6" needDuration="5.6" xpos="-5" ypos="0" size="1"/>
+  <object type="style" id="1" time="9"/>
+  <spike type="spread" angle="-60" speed="3" time="9.4" amount="4" direction="Clockwise"  delay="0.1" spacing="12"/>
+  <spike type="spread" angle="-80" speed="3" time="10.6" amount="4" direction="Clockwise"  delay="0" spacing="12"/>
+  <spike type="spread" angle="-60" speed="3" time="11.5" amount="2" direction="Clockwise"  delay="0" spacing="60"/>
+  <spike type="spread" angle="-70" speed="3" time="11.7" amount="2" direction="Clockwise"  delay="0" spacing="40"/>
+  <spike type="spread" angle="-85" speed="3" time="11.9" amount="2" direction="Clockwise"  delay="0" spacing="10"/>
+  <spike type="spread" angle="-60" speed="3" time="12.6" amount="2" direction="Clockwise"  delay="0" spacing="60"/>
+  <spike type="spread" angle="-80" speed="3" time="12.6" amount="2" direction="Clockwise"  delay="0" spacing="20"/>
+  <spike type="spread" angle="-50" speed="3" time="13.5" amount="5" direction="Clockwise"  delay="0.1" spacing="20"/>
+  <spike type="spread" angle="-45" speed="3.5" time="14.6" amount="5" direction="Clockwise"  delay="0" spacing="15"/>
+  <spike type="spread" angle="-75" speed="4" time="15.2" amount="4" direction="Clockwise"  delay="0" spacing="15"/>
+  <shoot type="single" angle="-60" speed="3.5" time="15.1"/>
+  <spike type="spread" angle="0" speed="3.5" time="15.9" amount="10" direction="Clockwise"  delay="0" spacing="36"/>
+  <spike type="spread" angle="0" speed="3.5" time="16.2" amount="10" direction="Clockwise"  delay="0" spacing="36"/>
+  <object type="gameplayRotate" time="16.4" duration="2" degrees="-120" xpos="0" ypos="0"/>
+  <shoot type="holdcircle" time="17.4" aliveDuration="6.5" needDuration="5.6" xpos="0" ypos="5" size="1"/>
+  <spike type="spread" angle="172.4" speed="3" time="17.6" amount="2" direction="Clockwise"  delay="0" spacing="-15"/>
+  <spike type="spread" angle="165" speed="3" time="17.75" amount="3" direction="Clockwise"  delay="0" spacing="-15"/>
+  <spike type="aim" buffer="0" time="18.6" speed="3"/>
+  <spike type="spread" angle="172.4" speed="3" time="19.6" amount="2" direction="Clockwise"  delay="0" spacing="-15"/>
+  <spike type="spread" angle="165" speed="3" time="19.75" amount="3" direction="Clockwise"  delay="0" spacing="-15"/>
+  <spike type="aim" buffer="0" time="20.5" speed="3"/>
+  <spike type="spread" angle="150" speed="3" time="21.6" amount="4" direction="Clockwise"  delay="0.1" spacing="-20"/>
+  <spike type="aim" buffer="0" time="22.5" speed="4"/>
+  <spike type="cone" buffer="15" time="23" speed="4" amount="3"/>
+  <spike type="spread" angle="0" speed="3" time="23.7" amount="10" direction="Clockwise" delay="0" spacing="36"/>
+  <spike type="spread" angle="18" speed="3" time="24" amount="10" direction="Clockwise" delay="0" spacing="36"/>
+  <object type="gameplayRotate" time="24.1" duration="2" degrees="-120" xpos="0" ypos="0"/>
+  <spike type="spread" angle="18" speed="3" time="24.6" amount="10" direction="Clockwise" delay="0" spacing="36"/>
+  <shoot type="holdcircle" time="25" aliveDuration="7" needDuration="6.4" xpos="0" ypos="-5" size="1"/>
+  <spike type="cone" buffer="15" time="25.6" speed="3" amount="3"/>
+  <spike type="cone" buffer="15" time="26.6" speed="4" amount="1"/>
+  <spike type="cone" buffer="15" time="27.6" speed="3" amount="3"/>
+  <spike type="cone" buffer="24" time="28.6" speed="3.5" amount="5"/>
+  <spike type="cone" buffer="22" time="29.6" speed="3" amount="4"/>
+  <spike type="cone" buffer="10" time="30.6" speed="4" amount="2"/>
+  <spike type="cone" buffer="10" time="30.9" speed="4" amount="3"/>
+  <spike type="spread" angle="7" speed="3" time="31.6" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <spike type="spread" angle="7" speed="3" time="32" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <object type="gameplayRotate" time="32.2" duration="2" degrees="140" xpos="0" ypos="0"/>
+  <shoot type="holdcircle" time="33" aliveDuration="7" needDuration="6.4" xpos="5" ypos="0" size="1"/>
+  <spike type="spread" angle="120" speed="3" time="33.5" amount="5" direction="Clockwise" delay="0" spacing="10"/>
+  <spike type="spread" angle="120" speed="3" time="34.6" amount="4" direction="Clockwise" delay="0" spacing="10"/>
+  <spike type="spread" angle="120" speed="3" time="35.6" amount="3" direction="Clockwise" delay="0" spacing="10"/>
+  <spike type="spread" angle="120" speed="3" time="36.6" amount="2" direction="Clockwise" delay="0" spacing="10"/>
+  <spike type="spread" angle="55" speed="3" time="34.6" amount="2" direction="Clockwise" delay="0" spacing="-10"/>
+  <spike type="spread" angle="55" speed="3" time="35.6" amount="3" direction="Clockwise" delay="0" spacing="-10"/>
+  <spike type="spread" angle="55" speed="3" time="36.6" amount="4" direction="Clockwise" delay="0" spacing="-10"/>
+  <spike type="spread" angle="55" speed="3" time="37.6" amount="5" direction="Clockwise" delay="0" spacing="-10"/>
+  <spike type="spread" angle="60" speed="4" time="38.5" amount="3" direction="Clockwise" delay="0" spacing="-30"/>
+  <spike type="spread" angle="75" speed="4" time="39.1" amount="2" direction="Clockwise" delay="0" spacing="-30"/>
+  <spike type="spread" angle="60" speed="3" time="39.7" amount="15" direction="Clockwise" delay="0" spacing="-24"/>
+  <spike type="spread" angle="60" speed="3" time="43" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="90" speed="3" time="43.3" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="60" speed="3" time="43.6" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="30" speed="3" time="43.9" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <object type="gameplayVelocity" time="44.36" speed="0"/>
+  <object type="gameplayVelocity" time="47.5" speed="1"/>
+  <object type="gameplayVelocity" time="47.8" speed="0"/>
+  <object type="gameplayVelocity" time="48.4" speed="1"/>
+  <spike type="spread" angle="0" speed="3" time="49.4" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="-30" speed="3" time="49.7" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="0" speed="3" time="50" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="180" speed="3" time="50.3" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <object type="gameplayVelocity" time="50.8" speed="0"/>
+  <object type="gameplayVelocity" time="51.5" speed="1"/>
+  <object type="gameplayVelocity" time="51.7" speed="0"/>
+  <object type="gameplayVelocity" time="52.5" speed="1"/>
+  <object type="gameplayVelocity" time="52.8" speed="0"/>
+  <object type="gameplayVelocity" time="53.5" speed="1"/>
+  <object type="gameplayVelocity" time="53.85" speed="0"/>
+  <object type="gameplayVelocity" time="54.5" speed="1"/>
+  <spike type="spread" angle="180" speed="4" time="55.5" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <spike type="spread" angle="15" speed="4" time="55.8" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <spike type="spread" angle="0" speed="4" time="56.1" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <object type="gameplayVelocity" time="56.5" speed="0"/>
+  <object type="gameplayVelocity" time="57.5" speed="1"/>
+  <object type="gameplayVelocity" time="57.7" speed="0"/>
+  <object type="gameplayVelocity" time="58.5" speed="1"/>
+  <spike type="spread" angle="180" speed="4.6" time="59.5" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <object type="gameplayVelocity" time="60.5" speed="0"/>
+  <object type="gameplayRotate" time="61" duration="1" degrees="30" xpos="0" ypos="0"/>
+  <object type="gameplayVelocity" time="61.5" speed="-1"/>
+  <object type="gameplayVelocity" time="62.5" speed="1"/>
+  <spike type="spread" angle="30" speed="3.5" time="62.5" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="-150" speed="3.5" time="62.8" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="-120" speed="3.5" time="63.1" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <spike type="spread" angle="-150" speed="3.5" time="63.4" amount="23" direction="Clockwise" delay="0" spacing="15"/>
+  <object type="gameplayVelocity" time="63.7" speed="0"/>
+  <object type="gameplayVelocity" time="64.5" speed=".7"/>
+  <spike type="sticky" time="67.7" speed="5" angle="0" duration="8.8"/>
+  <spike type="sticky" time="67.7" speed="5" angle="180" duration="8.8"/>
+  <spike type="sticky" time="67.7" speed="5" angle="90" duration="8.8"/>
+  <spike type="sticky" time="67.7" speed="5" angle="270" duration="8.8"/>
+  <object type="gameplayRotate" time="68.7" duration="10" degrees="405" xpos="0" ypos="0"/>
+  <spike type="cone" buffer="15" time="69.7" speed="4" amount="12"/>
+  <spike type="cone" buffer="15" time="71" speed="4" amount="12"/>
+  <spike type="cone" buffer="15" time="72.2" speed="4" amount="12"/>
+  <spike type="spread" angle="0" speed="4" time="73.3" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <spike type="spread" angle="15" speed="4" time="74" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <spike type="spread" angle="0" speed="4" time="74.7" amount="12" direction="Clockwise" delay="0" spacing="30"/>
+  <shoot type="spammer" angle="0" time="76" amount="1" duration="3" red="255" green="255" blue="255" blending="false"/>
+  <shoot type="holdcircle" time="77.5" aliveDuration="3" needDuration="1" xpos="0" ypos="-5" size=".8"/>
+  <shoot type="spammer" angle="0" time="79.2" amount="1" duration="3" red="255" green="255" blue="255" blending="false"/>
+  <shoot type="hexagon" angle="180" speed="3" time="79.2"/>
+  <shoot type="holdcircle" time="80.7" aliveDuration="1" needDuration=".5" xpos="0" ypos="5" size=".8"/>
+  <spike type="spread" angle="0" speed="4" time="81.6" amount="250" direction="Clockwise" delay="0.1" spacing="37"/>
+  <spike type="spread" angle="120" speed="4" time="81.6" amount="350" direction="CounterClockwise" delay="0.15" spacing="43"/>
+  <spike type="spread" angle="-120" speed="4" time="81.6" amount="300" direction="Clockwise" delay="0.2" spacing="53"/>
+  <shoot type="holdcircle" time="81.6" aliveDuration="25" needDuration="4.5" xpos="3.5" ypos="3.5" size=".7"/>
+  <shoot type="holdcircle" time="81.6" aliveDuration="25" needDuration="4.5" xpos="-3.5" ypos="3.5" size=".7"/>
+  <shoot type="holdcircle" time="81.6" aliveDuration="25" needDuration="4.5" xpos="3.5" ypos="-3.5" size=".7"/>
+  <shoot type="holdcircle" time="81.6" aliveDuration="25" needDuration="4.5" xpos="-3.5" ypos="-3.5" size=".7"/>
+  <shoot type="spammer" angle="0" time="107" amount="3" duration="13" red="255" green="255" blue="255" blending="false"/>
+  <shoot type="spammer" angle="72" time="107" amount="3" duration="13" red="255" green="255" blue="255" blending="false"/>
+  <shoot type="spammer" angle="144" time="107" amount="3" duration="13" red="255" green="255" blue="255" blending="false"/>
+  <shoot type="spammer" angle="216" time="107" amount="3" duration="13" red="255" green="255" blue="255" blending="false"/>
+  <shoot type="spammer" angle="288" time="107" amount="3" duration="13" red="255" green="255" blue="255" blending="false"/>
+  <shoot type="heptagon" angle="-30" speed="1.25" time="118"/>
+  <shoot type="single" angle="60" speed="1.25" time="120"/>
+  <shoot type="single" angle="-80" speed="1.25" time="122"/>
+  <shoot type="single" angle="170" speed="1.25" time="123.5"/>
+  <shoot type="single" angle="30" speed="1.25" time="125.4"/>
+  <shoot type="single" angle="0" speed="1.25" time="126.5"/>
+  <shoot type="single" angle="80" speed="1.25" time="128.2"/>
+  
+  <object type="create" xpos="0" ypos="0" zpos="3" length="25" height="15" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="0" blending="false" group="8"/>
+  
+  <object type="create" xpos="-4.1" ypos="-5.44" zpos="0" length="17" height=".1" rotation="-37.053" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,4,5,7"/>
+  <object type="create" xpos="-6.392876" ypos="-2.352603" zpos="0" length="17" height=".1" rotation="-69.845" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,4,6,7"/>
+  <object type="create" xpos="-6.811638" ypos="0.07208419" zpos="0" length="17" height=".1" rotation="-99.897" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,4,5,7"/>
+  <object type="create" xpos="-6.057391" ypos="3.116346" zpos="0" length="17" height=".1" rotation="-117.273" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,4,6,7"/>
+  <object type="create" xpos="-3.282482" ypos="5.968995" zpos="0" length="17" height=".1" rotation="-151.241" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,4,5,7"/>
+
+  <object type="create" xpos="-4.487518" ypos="-5.618995" zpos="0" length="17" height=".4" rotation="-39.221" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,3,6,7"/>
+  <object type="create" xpos="-6.780394" ypos="-2.531598" zpos="0" length="17" height=".4" rotation="-72.013" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,3,5,7"/>
+  <object type="create" xpos="-7.199156" ypos="-0.1069105" zpos="0" length="17" height=".4" rotation="-102.065" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,3,6,7"/>
+  <object type="create" xpos="-6.444909" ypos="2.937351" zpos="0" length="17" height=".4" rotation="-119.441" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,3,5,7"/>
+  <object type="create" xpos="-3.67" ypos="5.79" zpos="0" length="17" height=".4" rotation="-153.409" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,3,6,7"/>
+
+  <object type="create" xpos="-4.1" ypos="-5.44" zpos="0" length="17" height=".1" rotation="-37.053" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,4,6"/>
+  <object type="create" xpos="-6.392876" ypos="-2.352603" zpos="0" length="17" height=".1" rotation="-69.845" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,4,5"/>
+  <object type="create" xpos="-6.811638" ypos="0.07208419" zpos="0" length="17" height=".1" rotation="-99.897" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,4,6"/>
+  <object type="create" xpos="-6.057391" ypos="3.116346" zpos="0" length="17" height=".1" rotation="-117.273" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,4,5"/>
+  <object type="create" xpos="-3.282482" ypos="5.968995" zpos="0" length="17" height=".1" rotation="-151.241" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,4,6"/>
+
+  <object type="create" xpos="-4.487518" ypos="-5.618995" zpos="0" length="17" height=".4" rotation="-39.221" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,3,5"/>
+  <object type="create" xpos="-6.780394" ypos="-2.531598" zpos="0" length="17" height=".4" rotation="-72.013" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,3,6"/>
+  <object type="create" xpos="-7.199156" ypos="-0.1069105" zpos="0" length="17" height=".4" rotation="-102.065" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,3,5"/>
+  <object type="create" xpos="-6.444909" ypos="2.937351" zpos="0" length="17" height=".4" rotation="-119.441" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,3,6"/>
+  <object type="create" xpos="-3.67" ypos="5.79" zpos="0" length="17" height=".4" rotation="-153.409" red="255" green="255" blue="255" alpha="0" id="1" time="0" blending="false" group="1,2,3,5"/>
+
+  <object type="rotateAround" time=".01" duration="0.1" degrees="180" id="2" xpos="0" ypos="0"/>
+  <object type="toggle" time="9" id="1" state="off"/>
+
+  <object type="create" xpos="0" ypos="2.8" zpos="5" length="1.5" height="1" rotation="0" red="255" green="230" blue="0" alpha="255" id="0" time="6" blending="true" group="9"/>
+  <object type="create" xpos="0" ypos="-0.33" zpos="5" length="1.5" height="1" rotation="180" red="185" green="0" blue="205" alpha="255" id="0" time="6" blending="true" group="9"/>
+  <object type="create" xpos="0" ypos="8.67" zpos="5" length="1.5" height="1" rotation="0" red="185" green="0" blue="205" alpha="255" id="0" time="6" blending="true" group="9"/>
+  <object type="create" xpos="0" ypos="3.31" zpos="4" length="1.5" height="1" rotation="180" red="27" green="22" blue="142" alpha="255" id="0" time="6" blending="false" group="9"/>
+  <object type="create" xpos="0" ypos="-4.208" zpos="4.3" length="25" height="5" rotation="0" red="0" green="25" blue="82" alpha="255" id="1" time="6" blending="false" group="9"/>
+  <object type="create" xpos="0" ypos="-3.94" zpos="4" length="1.5" height="0.5" rotation="180" red="0" green="119" blue="106" alpha="255" id="0" time="6" blending="true" group="9"/>
+
+  <object type="create" xpos="0" ypos="-1.49" zpos="4.5" length="3" height="1" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="-2.88" ypos="-0.99" zpos="4.5" length="6" height="3" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="-8.18" ypos="-1.28" zpos="4.5" length="4" height="2" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="6.27" ypos="-1.28" zpos="4.5" length="8" height="2" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="9.21" ypos="-1.525" zpos="4.5" length="4" height="1" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="14.39" ypos="-1.39" zpos="4.5" length="3" height="1.5" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="17.62" ypos="-0.74" zpos="4.5" length="7" height="4" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="30" ypos="-1.49" zpos="4.5" length="3" height="1" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="27.12" ypos="-0.99" zpos="4.5" length="6" height="3" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="21.82" ypos="-1.28" zpos="4.5" length="4" height="2" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="36.27" ypos="-1.28" zpos="4.5" length="8" height="2" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="39.21" ypos="-1.525" zpos="4.5" length="4" height="1" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="44.39" ypos="-1.39" zpos="4.5" length="3" height="1.5" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  <object type="create" xpos="47.62" ypos="-0.74" zpos="4.5" length="7" height="4" rotation="0" red="51" green="51" blue="51" alpha="255" id="2" time="6" blending="false" group="9,10"/>
+  
+  <object type="create" xpos="-7" ypos="1" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="-4.8" ypos="3" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="-6.57" ypos="4.46" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="-1.47" ypos="1.28" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="1.45" ypos="3.41" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="4.99" ypos="4.19" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="7.18" ypos="2.05" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="4.84" ypos="0.7" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="2.34" ypos="-0.38" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  
+  <object type="create" xpos="1" ypos="7" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="3.2" ypos="9" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="1.43" ypos="10.46" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="6.53" ypos="7.28" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="9.45" ypos="9.41" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="12.99" ypos="10.19" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="15.18" ypos="8.05" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="12.84" ypos="6.7" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  <object type="create" xpos="10.34" ypos="5.62" zpos="4.7" length=".2" height=".2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="6" blending="false" group="9,11"/>
+  
+  <object type="create" xpos="0" ypos="3" zpos="4.8" length="1" height="1" rotation="0" red="255" green="255" blue="255" alpha="255" id="3" time="6" blending="false" group="9,12"/>
+
+  <object type="alpha" time="9.5" fadetime="1" alpha="0" id="8"/>
+  <object type="move" id="10" time="9.4" duration="34" xDisplacement="-20" yDisplacement="0" highDetail="true"/>
+  <object type="move" id="11" time="9.4" duration="11.33" xDisplacement="-8" yDisplacement="-6" highDetail="true"/>
+  <object type="move" id="11" time="20.73" duration="0" xDisplacement="8" yDisplacement="6" highDetail="true"/>
+  <object type="move" id="11" time="20.731" duration="11.33" xDisplacement="-8" yDisplacement="-6" highDetail="true"/>
+  <object type="move" id="11" time="32.061" duration="0" xDisplacement="8" yDisplacement="6" highDetail="true"/>
+  <object type="move" id="11" time="32.062" duration="11.33" xDisplacement="-8" yDisplacement="-6" highDetail="true"/>
+  <object type="move" id="12" time="9.4" duration="34" xDisplacement="0" yDisplacement="-4" highDetail="true"/>
+
+  <object type="alpha" time=".3" fadetime=".1" alpha="255" id="4"/>
+  <object type="alpha" time=".4" fadetime="2" alpha="0" id="4"/>
+
+  <object type="alpha" time=".4" fadetime=".1" alpha="255" id="3"/>
+  <object type="alpha" time=".5" fadetime="2" alpha="0" id="3"/>
+  
+  <color object="overlay" red="0" green="0" blue="0" fadetime=".56646" time="10.7839" alpha="60"/>
+  <color object="overlay" red="0" green="0" blue="0" fadetime=".56646" time="11.35036" alpha="0"/>
+  
+  <color object="overlay" red="0" green="0" blue="0" fadetime=".496265" time="18.53936" alpha="60"/>
+  <color object="overlay" red="0" green="0" blue="0" fadetime=".496265" time="19.035625" alpha="0"/>
+  
+  <color object="overlay" red="0" green="0" blue="0" fadetime="16" time="27.13262" alpha="255"/>
+
+  <object type="rotateSelf" time=".3" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time=".4" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time=".5" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time=".6" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time=".7" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time=".8" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time=".9" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.1" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.2" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.3" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.4" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.5" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.6" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.7" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.8" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="1.9" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="2" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="2.1" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="2.2" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="2.3" degrees="1" duration="0" id="5" highDetail="true"/>
+  
+  <object type="rotateSelf" time=".35" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time=".45" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time=".55" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time=".65" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time=".75" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time=".85" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time=".95" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.05" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.15" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.25" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.35" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.45" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.55" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.65" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.75" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.85" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="1.95" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="2.05" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="2.15" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="2.25" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="2.35" degrees="1" duration="0" id="6" highDetail="true"/>
+
+  <object type="alpha" time="6.3" fadetime=".1" alpha="255" id="4"/>
+  <object type="alpha" time="6.4" fadetime="2" alpha="0" id="4"/>
+
+  <object type="alpha" time="6.4" fadetime=".1" alpha="255" id="3"/>
+  <object type="alpha" time="6.5" fadetime="2" alpha="0" id="3"/>
+
+  <object type="rotateAround" time="5" duration="0.3" degrees="180" id="2" xpos="0" ypos="0"/>
+  <object type="rotateAround" time="5" duration="0.3" degrees="180" id="7" xpos="0" ypos="0"/>
+
+  <object type="rotateSelf" time="6.3" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="6.4" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="6.5" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="6.6" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="6.7" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="6.8" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="6.9" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.1" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.2" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.3" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.4" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.5" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.6" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.7" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.8" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="7.9" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="8" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="8.1" degrees="1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="8.2" degrees="-1" duration="0" id="5" highDetail="true"/>
+  <object type="rotateSelf" time="8.3" degrees="1" duration="0" id="5" highDetail="true"/>
+
+  <object type="rotateSelf" time="6.35" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="6.45" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="6.55" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="6.65" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="6.75" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="6.85" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="6.95" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.05" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.15" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.25" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.35" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.45" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.55" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.65" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.75" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.85" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="7.95" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="8.05" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="8.15" degrees="1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="8.25" degrees="-1" duration="0" id="6" highDetail="true"/>
+  <object type="rotateSelf" time="8.35" degrees="1" duration="0" id="6" highDetail="true"/>
+
+  <object type="create" xpos="-5" ypos="0" zpos="0.5" length="5.6" height="5.6" rotation="0" red="0" green="0" blue="0" alpha="0" id="3" time="6" blending="false" group="9,13"/>
+  <object type="create" xpos="0" ypos="5" zpos="0.5" length="5.6" height="5.6" rotation="0" red="0" green="0" blue="0" alpha="0" id="3" time="6" blending="false" group="9,14"/>
+  <object type="create" xpos="0" ypos="-5" zpos="0.5" length="5.6" height="5.6" rotation="0" red="0" green="0" blue="0" alpha="0" id="3" time="6" blending="false" group="9,15"/>
+  <object type="create" xpos="5" ypos="0" zpos="0.5" length="5.6" height="5.6" rotation="0" red="0" green="0" blue="0" alpha="0" id="3" time="6" blending="false" group="9,16"/>
+
+  <color object="group" red="0" green="0" blue="0" fadetime=".1" time="15.6" alpha="255" id="13"/>
+  <color object="group" red="0" green="0" blue="0" fadetime="3" time="16" alpha="0" id="13"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".1" time="23.6" alpha="255" id="14"/>
+  <color object="group" red="0" green="0" blue="0" fadetime="3" time="24" alpha="0" id="14"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".1" time="31.8" alpha="255" id="15"/>
+  <color object="group" red="0" green="0" blue="0" fadetime="3" time="32" alpha="0" id="15"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".1" time="39.6" alpha="255" id="16"/>
+  <color object="group" red="0" green="0" blue="0" fadetime="3" time="40" alpha="0" id="16"/>
+
+  <object type="toggle" time="42.5" id="9" state="off"/>
+
+  <object type="create" xpos="0" ypos="-3.659514" zpos="-3" length="7.5" height="7.5" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="-3.64704" ypos="-3.321749" zpos="-3" length="7.5" height="7.5" rotation="-192.497" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="-6.987142" ypos="-2.369633" zpos="-3" length="7.5" height="7.5" rotation="-202.313" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="-10.12258" ypos="-0.663182" zpos="-3" length="7.5" height="7.5" rotation="-212.086" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="-11.18602" ypos="-0.01473022" zpos="-3" length="7.5" height="7.5" rotation="-222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="-16.31995" ypos="4.541585" zpos="-3" length="7.5" height="7.5" rotation="-222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="3.64704" ypos="-3.321749" zpos="-3" length="7.5" height="7.5" rotation="192.497" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="6.987142" ypos="-2.369633" zpos="-3" length="7.5" height="7.5" rotation="202.313" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="10.12258" ypos="-0.663182" zpos="-3" length="7.5" height="7.5" rotation="212.086" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="11.18602" ypos="-0.01473022" zpos="-3" length="7.5" height="7.5" rotation="222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  <object type="create" xpos="16.31995" ypos="4.541585" zpos="-3" length="7.5" height="7.5" rotation="222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,18"/>
+  
+  <object type="create" xpos="0" ypos="3.659514" zpos="-3" length="7.5" height="7.5" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="-3.64704" ypos="3.321749" zpos="-3" length="7.5" height="7.5" rotation="192.497" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="-6.987142" ypos="2.369633" zpos="-3" length="7.5" height="7.5" rotation="202.313" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="-10.12258" ypos="0.663182" zpos="-3" length="7.5" height="7.5" rotation="212.086" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="-11.18602" ypos="0.01473022" zpos="-3" length="7.5" height="7.5" rotation="222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="-16.31995" ypos="-4.541585" zpos="-3" length="7.5" height="7.5" rotation="222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="3.64704" ypos="3.321749" zpos="-3" length="7.5" height="7.5" rotation="-192.497" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="6.987142" ypos="2.369633" zpos="-3" length="7.5" height="7.5" rotation="-202.313" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="10.12258" ypos="0.663182" zpos="-3" length="7.5" height="7.5" rotation="-212.086" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="11.18602" ypos="0.01473022" zpos="-3" length="7.5" height="7.5" rotation="-222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+  <object type="create" xpos="16.31995" ypos="-4.541585" zpos="-3" length="7.5" height="7.5" rotation="-222.399" red="0" green="0" blue="0" alpha="255" id="1" time="43" blending="false" group="17,19"/>
+
+  <color object="overlay" red="0" green="0" blue="0" fadetime="0" time="43.4" alpha="0"/>
+  <object type="move" id="18" time="43.4" duration="1.5" xDisplacement="0" yDisplacement="-3"/>
+  <object type="move" id="19" time="43.4" duration="1.5" xDisplacement="0" yDisplacement="3"/>
+  <object type="move" id="18" time="44.9" duration=".4" xDisplacement="0" yDisplacement="3"/>
+  <object type="move" id="19" time="44.9" duration=".4" xDisplacement="0" yDisplacement="-3"/>
+  <object type="move" id="18" time="45.3" duration="2" xDisplacement="0" yDisplacement="-8"/>
+  <object type="move" id="19" time="45.3" duration="2" xDisplacement="0" yDisplacement="8"/>
+  <object type="toggle" time="48" id="17" state="off"/>
+
+  <object type="create" xpos="0" ypos="-1.43" zpos="3" length="1.2" height="1" rotation="0" red="212" green="85" blue="174" alpha="255" id="0" time="43" blending="true" group="20"/>
+  <object type="create" xpos="0" ypos="-4.53" zpos="3" length="1.2" height="1" rotation="180" red="180" green="85" blue="212" alpha="255" id="0" time="43" blending="true" group="20"/>
+  <object type="create" xpos="0" ypos="4.47" zpos="3" length="1.2" height="1" rotation="0" red="180" green="85" blue="212" alpha="255" id="0" time="43" blending="true" group="20"/>
+  <object type="create" xpos="0" ypos="1.13" zpos="3" length="1.2" height="1" rotation="180" red="127" green="85" blue="212" alpha="255" id="0" time="43" blending="true" group="20"/>
+  <object type="create" xpos="0" ypos="3.36" zpos="3" length="1.2" height=".5" rotation="180" red="80" green="64" blue="160" alpha="127" id="0" time="43" blending="true" group="20"/>
+  <object type="create" xpos="0" ypos="-3.36" zpos="3" length="1.2" height=".5" rotation="0" red="139" green="64" blue="160" alpha="127" id="0" time="43" blending="true" group="20"/>
+
+  <object type="create" xpos="0" ypos="-4" zpos="-2" length="20" height="2" rotation="0" red="255" green="255" blue="255" alpha="27" id="1" time="43" blending="false" group="20,21"/>
+  <object type="create" xpos="0" ypos="0" zpos="-2" length="20" height="2" rotation="0" red="255" green="255" blue="255" alpha="27" id="1" time="43" blending="false" group="20,21"/>
+  <object type="create" xpos="0" ypos="4" zpos="-2" length="20" height="2" rotation="0" red="255" green="255" blue="255" alpha="27" id="1" time="43" blending="false" group="20,21"/>
+  <object type="create" xpos="0" ypos="8" zpos="-2" length="20" height="2" rotation="0" red="255" green="255" blue="255" alpha="27" id="1" time="43" blending="false" group="20,21"/>
+  <object type="create" xpos="0" ypos="12" zpos="-2" length="20" height="2" rotation="0" red="255" green="255" blue="255" alpha="27" id="1" time="43" blending="false" group="20,21"/>
+  <object type="create" xpos="0" ypos="16" zpos="-2" length="20" height="2" rotation="0" red="255" green="255" blue="255" alpha="27" id="1" time="43" blending="false" group="20,21"/>
+
+  <object type="move" id="21" time="43.1" duration="15" xDisplacement="0" yDisplacement="-12" highDetail="true"/>
+  <object type="move" id="21" time="58.1" duration="0.01" xDisplacement="0" yDisplacement="12" highDetail="true"/>
+  <object type="move" id="21" time="58.1" duration="15" xDisplacement="0" yDisplacement="-12" highDetail="true"/>
+  <object type="move" id="21" time="73.1" duration="0.01" xDisplacement="0" yDisplacement="12" highDetail="true"/>
+  <object type="move" id="21" time="73.1" duration="15" xDisplacement="0" yDisplacement="-12" highDetail="true"/>
+
+  <object type="create" xpos="0" ypos="0" zpos="0" length="3" height="3" rotation="0" red="0" green="0" blue="0" alpha="0" id="5" time="43" blending="false" group="20,22"/>
+  <object type="alpha" time="46.4" fadetime="1" alpha="130" id="22"/>
+  <object type="alpha" time="47.4" fadetime="2" alpha="0" id="22"/>
+  <object type="alpha" time="50.5" fadetime="1" alpha="150" id="22"/>
+  <object type="alpha" time="51.6" fadetime="2" alpha="0" id="22"/>
+  <object type="alpha" time="57.1" fadetime="1" alpha="160" id="22"/>
+  <object type="alpha" time="58.2" fadetime="2" alpha="0" id="22"/>
+  <object type="alpha" time="62.9" fadetime="1" alpha="140" id="22"/>
+  <object type="alpha" time="64" fadetime="2" alpha="0" id="22"/>
+  <object type="alpha" time="65.6" fadetime="1" alpha="220" id="22"/>
+  <object type="alpha" time="66.7" fadetime="2" alpha="0" id="22"/>
+  <object type="alpha" time="72.2" fadetime="1" alpha="200" id="22"/>
+  <object type="alpha" time="73.3" fadetime="2" alpha="0" id="22"/>
+
+  <object type="alpha" time="75" fadetime="2" alpha="0" id="20"/>
+  <color object="shooter" red="0" green="0" blue="0" time="75" fadetime="2"/>
+  <color object="bullets" red="0" green="0" blue="0" time="75" fadetime="2"/>
+  <color object="bullets" red="255" green="255" blue="255" time="80" fadetime="1"/>
+  <object type="create" xpos="0" ypos="0" zpos="-.2" length="2" height="2" rotation="0" red="0" green="0" blue="0" alpha="255" id="3" time="80" blending="false" group="70"/>
+  
+  <object type="toggle" time="77" id="20" state="off"/>
+
+  <object type="create" xpos="0" ypos="0" zpos="0.4" length="12.6" height="12.6" rotation="0" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,24"/>
+  <object type="create" xpos="0" ypos="0" zpos="0" length="12.3" height="12.3" rotation="0" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="30"/>
+  <object type="create" xpos="0" ypos="0" zpos="1.1" length="15.6" height="15.6" rotation="0" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,25"/>
+  <object type="create" xpos="0" ypos="0" zpos="1" length="15.3" height="15.3" rotation="0" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="31"/>
+  <object type="create" xpos="0" ypos="0" zpos="2.1" length="18.6" height="18.6" rotation="0" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,26"/>
+  <object type="create" xpos="0" ypos="0" zpos="2" length="18.3" height="18.3" rotation="0" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="32"/>
+
+  <object type="create" xpos="5.5" ypos="0" zpos="-1" length="1.5" height=".2" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="-5.5" ypos="0" zpos="-1" length="1.5" height=".2" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="4.756502" ypos="2.761465" zpos="-1" length="1.5" height=".2" rotation="30.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="-4.756502" ypos="-2.761465" zpos="-1" length="1.5" height=".2" rotation="30.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="2.736265" ypos="4.771043" zpos="-1" length="1.5" height=".2" rotation="60.165" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="-2.736265" ypos="-4.771043" zpos="-1" length="1.5" height=".2" rotation="60.165" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="0" ypos="5.5" zpos="-1" length="1.5" height=".2" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="0" ypos="-5.5" zpos="-1" length="1.5" height=".2" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="-2.759164" ypos="4.757836" zpos="-1" length="1.5" height=".2" rotation="120" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="2.759164" ypos="-4.757836" zpos="-1" length="1.5" height=".2" rotation="120" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="-4.769721" ypos="2.73857" zpos="-1" length="1.5" height=".2" rotation="150.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  <object type="create" xpos="4.769721" ypos="-2.738576" zpos="-1" length="1.5" height=".2" rotation="150.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27"/>
+  
+  <object type="create" xpos="7.0383" ypos="0" zpos="-1" length="1.5" height=".2" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="-7.0383" ypos="0" zpos="-1" length="1.5" height=".2" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="6.0868" ypos="3.5209" zpos="-1" length="1.5" height=".2" rotation="30.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="-6.0868" ypos="-3.5209" zpos="-1" length="1.5" height=".2" rotation="30.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="3.5015" ypos="6.0831" zpos="-1" length="1.5" height=".2" rotation="60.165" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="-3.5015" ypos="-6.0831" zpos="-1" length="1.5" height=".2" rotation="60.165" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="0" ypos="7.0125" zpos="-1" length="1.5" height=".2" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="0" ypos="-7.0125" zpos="-1" length="1.5" height=".2" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="-3.531" ypos="6.0662" zpos="-1" length="1.5" height=".2" rotation="120.111" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="3.531" ypos="-6.0662" zpos="-1" length="1.5" height=".2" rotation="120.111" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="-6.1038" ypos="3.4917" zpos="-1" length="1.5" height=".2" rotation="150.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+  <object type="create" xpos="6.1038" ypos="-3.4917" zpos="-1" length="1.5" height=".2" rotation="150.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28"/>
+
+  <object type="create" xpos="8.4922" ypos="0" zpos="-1" length="1.5" height=".2" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="-8.4922" ypos="0" zpos="-1" length="1.5" height=".2" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="7.3441" ypos="4.2361" zpos="-1" length="1.5" height=".2" rotation="30.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="-7.3441" ypos="-4.2361" zpos="-1" length="1.5" height=".2" rotation="30.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="4.2248" ypos="7.3187" zpos="-1" length="1.5" height=".2" rotation="60.165" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="-4.2248" ypos="-7.3187" zpos="-1" length="1.5" height=".2" rotation="60.165" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="0" ypos="8.4369" zpos="-1" length="1.5" height=".2" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="0" ypos="-8.4369" zpos="-1" length="1.5" height=".2" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="-4.2604" ypos="7.2983" zpos="-1" length="1.5" height=".2" rotation="120.111" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="4.2604" ypos="-7.2983" zpos="-1" length="1.5" height=".2" rotation="120.111" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="-7.3647" ypos="4.2009" zpos="-1" length="1.5" height=".2" rotation="150.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+  <object type="create" xpos="7.3647" ypos="-4.2009" zpos="-1" length="1.5" height=".2" rotation="150.138" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29"/>
+
+  <object type="mask" time="75.1" id="30" zposStart=".3" zposEnd=".5"/>
+  <object type="mask" time="75.1" id="31" zposStart="1" zposEnd="1.2"/>
+  <object type="mask" time="75.1" id="32" zposStart="2" zposEnd="2.2"/>
+  
+  <object type="create" xpos="-1.355449" ypos="5.227117" zpos="-2" length="1" height="1" rotation="14.537" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,27,38"/>
+  <object type="create" xpos="-1.355449" ypos="5.227117" zpos="-3" length=".6" height=".6" rotation="14.537" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,27,38"/>  
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-2" length=".8" height=".8" rotation="-15.192" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,27,39"/>
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-3" length=".6" height=".6" rotation="14.537" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,27,39"/>
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-3.5" length=".1" height=".1" rotation="14.537" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,27,39"/>  
+  <object type="create" xpos="3.972781" ypos="3.963967" zpos="-2" length=".6" height=".6" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,40"/>
+  <object type="create" xpos="3.972781" ypos="3.963967" zpos="-3" length=".4" height=".4" rotation="90" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,27,40"/>
+  <object type="create" xpos="3.723" ypos="3.7" zpos="-2" length=".6" height=".1" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,40"/>
+  <object type="create" xpos="3.71" ypos="3.718" zpos="-2" length=".6" height=".1" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,40"/>  
+  <object type="create" xpos="5.39" ypos="1.44" zpos="-2" length=".8" height=".8" rotation="-74.955" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,27,41"/>
+  <object type="create" xpos="5.39" ypos="1.44" zpos="-3" length=".4" height=".4" rotation="-74.955" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,27,41"/>
+  <object type="create" xpos="5.152" ypos="1.377" zpos="-2" length="0.6" height=".1" rotation="15" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,41"/>
+  <object type="create" xpos="5.051" ypos="1.35" zpos="-2" length="0.4" height=".1" rotation="105" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,41"/>  
+  <object type="create" xpos="5.31" ypos="-1.051" zpos="-2" length="0.6" height="0.6" rotation="-105.306" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,27,42"/>
+  <object type="create" xpos="5.31" ypos="-1.051" zpos="-3" length="0.4" height="0.4" rotation="-105.306" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,27,42"/>
+  <object type="create" xpos="5.174" ypos="-1.549" zpos="-2" length="0.6" height="0.6" rotation="-105.306" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,27,42"/>
+  <object type="create" xpos="5.174" ypos="-1.549" zpos="-3" length="0.4" height="0.4" rotation="-105.306" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,27,42"/>  
+  <object type="create" xpos="3.91" ypos="-3.91" zpos="-2" length="1" height="1" rotation="45.024" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,27,43"/>
+  <object type="create" xpos="3.91" ypos="-3.91" zpos="-3" length=".6" height=".6" rotation="45.024" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,27,43"/>
+  <object type="create" xpos="3.874" ypos="-3.856" zpos="-3.5" length="0.4" height=".08" rotation="45" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,43"/>  
+  <object type="create" xpos="1.403694" ypos="-5.214368" zpos="-2" length="0.1" height="1" rotation="-209.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,44"/>
+  <object type="create" xpos="1.403694" ypos="-5.214368" zpos="-2" length="0.1" height="1" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,44"/>
+  <object type="create" xpos="1.58" ypos="-4.9" zpos="-2" length="0.1" height=".3" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,44"/>
+  <object type="create" xpos="1.23" ypos="-5.5" zpos="-2" length="0.1" height=".3" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,44"/>
+  <object type="create" xpos="1.69" ypos="-5.38" zpos="-2" length="0.1" height=".3" rotation="-29.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,44"/>
+  <object type="create" xpos="1.11" ypos="-5.05" zpos="-2" length="0.1" height=".3" rotation="-29.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,44"/>  
+  <object type="create" xpos="-1.41507" ypos="-5.211295" zpos="-2" length=".8" height=".8" rotation="-15.192" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,27,33"/>
+  <object type="create" xpos="-1.41507" ypos="-5.211295" zpos="-3" length=".6" height=".6" rotation="-15.192" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,27,33"/>
+  <object type="create" xpos="-1.401" ypos="-5.182" zpos="-3.5" length=".1" height=".7" rotation="-15" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,33"/>
+  <object type="create" xpos="-1.415" ypos="-5.206" zpos="-3.5" length=".1" height=".7" rotation="75" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,33"/>  
+  <object type="create" xpos="-3.812223" ypos="-3.82452" zpos="-2" length="0.8" height="0.8" rotation="-44.908" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,34"/>
+  <object type="create" xpos="-3.812223" ypos="-3.82452" zpos="-3" length="0.6" height="0.6" rotation="-44.908" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,27,34"/>  
+  <object type="create" xpos="-5.215741" ypos="1.398589" zpos="-2" length="0.8" height="0.8" rotation="74.98901" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,27,35"/>
+  <object type="create" xpos="-5.215741" ypos="1.398589" zpos="-3" length="0.6" height="0.6" rotation="74.98901" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,27,35"/>
+  <object type="create" xpos="-5.214" ypos="1.391" zpos="-3.5" length="1.1" height="0.1" rotation="75" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,35"/>  
+  <object type="create" xpos="-5.212358" ypos="-1.411136" zpos="-2" length="1" height="1" rotation="105.149" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,27,36"/>
+  <object type="create" xpos="-5.212358" ypos="-1.411136" zpos="-3" length=".6" height=".6" rotation="105.149" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,27,36"/>
+  <object type="create" xpos="-5.08" ypos="-1.39" zpos="-3" length="0.3" height="0.3" rotation="105" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,27,36"/>
+  <object type="create" xpos="-4" ypos="4" zpos="-2" length="1" height="0.1" rotation="44.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,37"/>
+  <object type="create" xpos="-3.76" ypos="3.76" zpos="3.76" length="1" height="0.1" rotation="44.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,37"/>
+  <object type="create" xpos="-3.89" ypos="3.89" zpos="-2" length=".8" height="0.1" rotation="134.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,27,37"/>
+  
+  <object type="create" xpos="-1.355449" ypos="5.227117" zpos="-2" length="1" height="1" rotation="14.537" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,29,33,56"/>
+  <object type="create" xpos="-1.355449" ypos="5.227117" zpos="-3" length=".6" height=".6" rotation="14.537" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,29,33,56"/>  
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-2" length=".8" height=".8" rotation="-15.192" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,29,34,45"/>
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-3" length=".6" height=".6" rotation="14.537" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,29,34,45"/>
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-3.5" length=".1" height=".1" rotation="14.537" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,29,34,45"/>  
+  <object type="create" xpos="3.972781" ypos="3.963967" zpos="-2" length=".6" height=".6" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,35,46"/>
+  <object type="create" xpos="3.972781" ypos="3.963967" zpos="-3" length=".4" height=".4" rotation="90" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,29,35,46"/>
+  <object type="create" xpos="3.723" ypos="3.7" zpos="-2" length=".6" height=".1" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,35,46"/>
+  <object type="create" xpos="3.71" ypos="3.718" zpos="-2" length=".6" height=".1" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,35,46"/>  
+  <object type="create" xpos="5.39" ypos="1.44" zpos="-2" length=".8" height=".8" rotation="-74.955" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,29,36,47"/>
+  <object type="create" xpos="5.39" ypos="1.44" zpos="-3" length=".4" height=".4" rotation="-74.955" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,29,36,47"/>
+  <object type="create" xpos="5.152" ypos="1.377" zpos="-2" length="0.6" height=".1" rotation="15" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,36,47"/>
+  <object type="create" xpos="5.051" ypos="1.35" zpos="-2" length="0.4" height=".1" rotation="105" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,36,47"/>  
+  <object type="create" xpos="5.31" ypos="-1.051" zpos="-2" length="0.6" height="0.6" rotation="-105.306" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,29,37,48"/>
+  <object type="create" xpos="5.31" ypos="-1.051" zpos="-3" length="0.4" height="0.4" rotation="-105.306" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,29,37,48"/>
+  <object type="create" xpos="5.174" ypos="-1.549" zpos="-2" length="0.6" height="0.6" rotation="-105.306" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,29,37,48"/>
+  <object type="create" xpos="5.174" ypos="-1.549" zpos="-3" length="0.4" height="0.4" rotation="-105.306" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,29,37,48"/>  
+  <object type="create" xpos="3.91" ypos="-3.91" zpos="-2" length="1" height="1" rotation="45.024" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,29,38,49"/>
+  <object type="create" xpos="3.91" ypos="-3.91" zpos="-3" length=".6" height=".6" rotation="45.024" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,29,38,49"/>
+  <object type="create" xpos="3.874" ypos="-3.856" zpos="-3.5" length="0.4" height=".08" rotation="45" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,38,49"/>  
+  <object type="create" xpos="1.403694" ypos="-5.214368" zpos="-2" length="0.1" height="1" rotation="-209.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,39,50"/>
+  <object type="create" xpos="1.403694" ypos="-5.214368" zpos="-2" length="0.1" height="1" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,39,50"/>
+  <object type="create" xpos="1.58" ypos="-4.9" zpos="-2" length="0.1" height=".3" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,39,50"/>
+  <object type="create" xpos="1.23" ypos="-5.5" zpos="-2" length="0.1" height=".3" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,39,50"/>
+  <object type="create" xpos="1.69" ypos="-5.38" zpos="-2" length="0.1" height=".3" rotation="-29.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,39,50"/>
+  <object type="create" xpos="1.11" ypos="-5.05" zpos="-2" length="0.1" height=".3" rotation="-29.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,39,50"/>  
+  <object type="create" xpos="-1.41507" ypos="-5.211295" zpos="-2" length=".8" height=".8" rotation="-15.192" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,29,40,51"/>
+  <object type="create" xpos="-1.41507" ypos="-5.211295" zpos="-3" length=".6" height=".6" rotation="-15.192" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,29,40,51"/>
+  <object type="create" xpos="-1.401" ypos="-5.182" zpos="-3.5" length=".1" height=".7" rotation="-15" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,40,51"/>
+  <object type="create" xpos="-1.415" ypos="-5.206" zpos="-3.5" length=".1" height=".7" rotation="75" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,40,51"/>  
+  <object type="create" xpos="-3.812223" ypos="-3.82452" zpos="-2" length="0.8" height="0.8" rotation="-44.908" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,41,52"/>
+  <object type="create" xpos="-3.812223" ypos="-3.82452" zpos="-3" length="0.6" height="0.6" rotation="-44.908" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,29,41,52"/>  
+  <object type="create" xpos="-5.215741" ypos="1.398589" zpos="-2" length="0.8" height="0.8" rotation="74.98901" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,29,41,54"/>
+  <object type="create" xpos="-5.215741" ypos="1.398589" zpos="-3" length="0.6" height="0.6" rotation="74.98901" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,29,41,54"/>
+  <object type="create" xpos="-5.214" ypos="1.391" zpos="-3.5" length="1.1" height="0.1" rotation="75" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,41,54"/>  
+  <object type="create" xpos="-5.212358" ypos="-1.411136" zpos="-2" length="1" height="1" rotation="105.149" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,29,42,53"/>
+  <object type="create" xpos="-5.212358" ypos="-1.411136" zpos="-3" length=".6" height=".6" rotation="105.149" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,29,42,53"/>
+  <object type="create" xpos="-5.08" ypos="-1.39" zpos="-3" length="0.3" height="0.3" rotation="105" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,29,42,53"/>
+  <object type="create" xpos="-4" ypos="4" zpos="-2" length="1" height="0.1" rotation="44.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,43,55"/>
+  <object type="create" xpos="-3.76" ypos="3.76" zpos="3.76" length="1" height="0.1" rotation="44.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,43,55"/>
+  <object type="create" xpos="-3.89" ypos="3.89" zpos="-2" length=".8" height="0.1" rotation="134.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,29,43,55"/>
+  
+  <object type="create" xpos="-1.355449" ypos="5.227117" zpos="-2" length="1" height="1" rotation="14.537" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,28,33,57"/>
+  <object type="create" xpos="-1.355449" ypos="5.227117" zpos="-3" length=".6" height=".6" rotation="14.537" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,28,33,57"/>  
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-2" length=".8" height=".8" rotation="-15.192" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,28,34,58"/>
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-3" length=".6" height=".6" rotation="14.537" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,28,34,58"/>
+  <object type="create" xpos="1.41507" ypos="5.211295" zpos="-3.5" length=".1" height=".1" rotation="14.537" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,28,34,58"/>  
+  <object type="create" xpos="3.972781" ypos="3.963967" zpos="-2" length=".6" height=".6" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,35,59"/>
+  <object type="create" xpos="3.972781" ypos="3.963967" zpos="-3" length=".4" height=".4" rotation="90" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,28,35,59"/>
+  <object type="create" xpos="3.723" ypos="3.7" zpos="-2" length=".6" height=".1" rotation="90" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,35,59"/>
+  <object type="create" xpos="3.71" ypos="3.718" zpos="-2" length=".6" height=".1" rotation="0" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,35,59"/>  
+  <object type="create" xpos="5.39" ypos="1.44" zpos="-2" length=".8" height=".8" rotation="-74.955" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,28,36,60"/>
+  <object type="create" xpos="5.39" ypos="1.44" zpos="-3" length=".4" height=".4" rotation="-74.955" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,28,36,60"/>
+  <object type="create" xpos="5.152" ypos="1.377" zpos="-2" length="0.6" height=".1" rotation="15" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,36,60"/>
+  <object type="create" xpos="5.051" ypos="1.35" zpos="-2" length="0.4" height=".1" rotation="105" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,36,60"/>  
+  <object type="create" xpos="5.31" ypos="-1.051" zpos="-2" length="0.6" height="0.6" rotation="-105.306" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,28,37,61"/>
+  <object type="create" xpos="5.31" ypos="-1.051" zpos="-3" length="0.4" height="0.4" rotation="-105.306" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,28,37,61"/>
+  <object type="create" xpos="5.174" ypos="-1.549" zpos="-2" length="0.6" height="0.6" rotation="-105.306" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,28,37,61"/>
+  <object type="create" xpos="5.174" ypos="-1.549" zpos="-3" length="0.4" height="0.4" rotation="-105.306" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,28,37,61"/>  
+  <object type="create" xpos="3.91" ypos="-3.91" zpos="-2" length="1" height="1" rotation="45.024" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,28,38,62"/>
+  <object type="create" xpos="3.91" ypos="-3.91" zpos="-3" length=".6" height=".6" rotation="45.024" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,28,38,62"/>
+  <object type="create" xpos="3.874" ypos="-3.856" zpos="-3.5" length="0.4" height=".08" rotation="45" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,38,62"/>  
+  <object type="create" xpos="1.403694" ypos="-5.214368" zpos="-2" length="0.1" height="1" rotation="-209.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,39,63"/>
+  <object type="create" xpos="1.403694" ypos="-5.214368" zpos="-2" length="0.1" height="1" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,39,63"/>
+  <object type="create" xpos="1.58" ypos="-4.9" zpos="-2" length="0.1" height=".3" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,39,63"/>
+  <object type="create" xpos="1.23" ypos="-5.5" zpos="-2" length="0.1" height=".3" rotation="-119.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,39,63"/>
+  <object type="create" xpos="1.69" ypos="-5.38" zpos="-2" length="0.1" height=".3" rotation="-29.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,39,63"/>
+  <object type="create" xpos="1.11" ypos="-5.05" zpos="-2" length="0.1" height=".3" rotation="-29.933" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,39,63"/>  
+  <object type="create" xpos="-1.41507" ypos="-5.211295" zpos="-2" length=".8" height=".8" rotation="-15.192" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,28,40,64"/>
+  <object type="create" xpos="-1.41507" ypos="-5.211295" zpos="-3" length=".6" height=".6" rotation="-15.192" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,28,40,64"/>
+  <object type="create" xpos="-1.401" ypos="-5.182" zpos="-3.5" length=".1" height=".7" rotation="-15" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,40,64"/>
+  <object type="create" xpos="-1.415" ypos="-5.206" zpos="-3.5" length=".1" height=".7" rotation="75" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,40,64"/>  
+  <object type="create" xpos="-3.812223" ypos="-3.82452" zpos="-2" length="0.8" height="0.8" rotation="-44.908" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,41,65"/>
+  <object type="create" xpos="-3.812223" ypos="-3.82452" zpos="-3" length="0.6" height="0.6" rotation="-44.908" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,28,41,65"/>  
+  <object type="create" xpos="-5.215741" ypos="1.398589" zpos="-2" length="0.8" height="0.8" rotation="74.98901" red="255" green="255" blue="255" alpha="0" id="3" time="75" blending="false" group="23,28,41,67"/>
+  <object type="create" xpos="-5.215741" ypos="1.398589" zpos="-3" length="0.6" height="0.6" rotation="74.98901" red="0" green="0" blue="0" alpha="0" id="3" time="75" blending="false" group="23,28,41,67"/>
+  <object type="create" xpos="-5.214" ypos="1.391" zpos="-3.5" length="1.1" height="0.1" rotation="75" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,41,67"/>  
+  <object type="create" xpos="-5.212358" ypos="-1.411136" zpos="-2" length="1" height="1" rotation="105.149" red="255" green="255" blue="255" alpha="0" id="2" time="75" blending="false" group="23,28,42,66"/>
+  <object type="create" xpos="-5.212358" ypos="-1.411136" zpos="-3" length=".6" height=".6" rotation="105.149" red="0" green="0" blue="0" alpha="0" id="2" time="75" blending="false" group="23,28,42,66"/>
+  <object type="create" xpos="-5.08" ypos="-1.39" zpos="-3" length="0.3" height="0.3" rotation="105" red="0" green="0" blue="0" alpha="0" id="1" time="75" blending="false" group="23,28,42,66"/>
+  <object type="create" xpos="-4" ypos="4" zpos="-2" length="1" height="0.1" rotation="44.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,43,68"/>
+  <object type="create" xpos="-3.76" ypos="3.76" zpos="3.76" length="1" height="0.1" rotation="44.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,43,68"/>
+  <object type="create" xpos="-3.89" ypos="3.89" zpos="-2" length=".8" height="0.1" rotation="134.974" red="255" green="255" blue="255" alpha="0" id="1" time="75" blending="false" group="23,28,43,68"/>
+  
+  <object type="alpha" time="76" fadetime=".2" alpha="180" id="24"/>
+  <object type="alpha" time="76.1" fadetime=".2" alpha="180" id="25"/>
+  <object type="alpha" time="76.2" fadetime=".2" alpha="180" id="26"/>
+  <object type="alpha" time="76.2" fadetime=".2" alpha="0" id="24"/>
+  <object type="alpha" time="76.3" fadetime=".2" alpha="0" id="25"/>
+  <object type="alpha" time="76.4" fadetime=".2" alpha="0" id="26"/>
+
+  <object type="alpha" time="77.5" fadetime=".2" alpha="200" id="24"/>
+  <object type="alpha" time="77.6" fadetime=".2" alpha="200" id="25"/>
+  <object type="alpha" time="77.7" fadetime=".2" alpha="200" id="26"/>
+  <object type="alpha" time="77.7" fadetime=".2" alpha="0" id="24"/>
+  <object type="alpha" time="77.8" fadetime=".2" alpha="0" id="25"/>
+  <object type="alpha" time="77.9" fadetime=".2" alpha="0" id="26"/>
+
+  <object type="alpha" time="79.2" fadetime=".2" alpha="170" id="24"/>
+  <object type="alpha" time="79.3" fadetime=".2" alpha="170" id="25"/>
+  <object type="alpha" time="79.4" fadetime=".2" alpha="170" id="26"/>
+  <object type="alpha" time="79.4" fadetime=".2" alpha="0" id="24"/>
+  <object type="alpha" time="79.5" fadetime=".2" alpha="0" id="25"/>
+  <object type="alpha" time="79.6" fadetime=".2" alpha="0" id="26"/>
+
+  <object type="alpha" time="80.8" fadetime=".2" alpha="100" id="24"/>
+  <object type="alpha" time="80.9" fadetime=".2" alpha="100" id="25"/>
+  <object type="alpha" time="81" fadetime=".2" alpha="100" id="26"/>
+  <object type="alpha" time="81.1" fadetime=".2" alpha="0" id="24"/>
+  <object type="alpha" time="81.2" fadetime=".2" alpha="0" id="25"/>
+  <object type="alpha" time="81.3" fadetime=".2" alpha="0" id="26"/>
+
+  <object type="alpha" time="81.6" fadetime=".1" alpha="255" id="24"/>
+  <object type="alpha" time="81.6" fadetime=".1" alpha="255" id="25"/>
+  <object type="alpha" time="81.6" fadetime=".1" alpha="255" id="26"/>
+  <object type="alpha" time="81.6" fadetime=".1" alpha="255" id="27"/>
+  <object type="alpha" time="81.6" fadetime=".1" alpha="255" id="28"/>
+  <object type="alpha" time="81.6" fadetime=".1" alpha="255" id="29"/>
+
+  <object type="rotateAround" time="81" duration="100" degrees="7200" id="27" xpos="0" ypos="0" highDetail="true"/>
+  <object type="rotateAround" time="81" duration="100" degrees="-4800" id="28" xpos="0" ypos="0" highDetail="true"/>
+  <object type="rotateAround" time="81" duration="100" degrees="4000" id="29" xpos="0" ypos="0" highDetail="true"/>
+
+  <object type="move" id="56" time="76" duration="1" xDisplacement="-.7764" yDisplacement="2.8977"/>
+  <object type="move" id="45" time="76" duration="1" xDisplacement=".7764" yDisplacement="2.8977"/>
+  <object type="move" id="46" time="76" duration="1" xDisplacement="2.1213" yDisplacement="2.1213"/>
+  <object type="move" id="47" time="76" duration="1" xDisplacement="2.8977" yDisplacement=".77645"/>
+  <object type="move" id="48" time="76" duration="1" xDisplacement="2.8977" yDisplacement="-.77645"/>
+  <object type="move" id="49" time="76" duration="1" xDisplacement="2.1213" yDisplacement="-2.1213"/>
+  <object type="move" id="50" time="76" duration="1" xDisplacement=".7764" yDisplacement="-2.8977"/>
+  <object type="move" id="51" time="76" duration="1" xDisplacement="-.7764" yDisplacement="-2.8977"/>
+  <object type="move" id="52" time="76" duration="1" xDisplacement="-2.1213" yDisplacement="-2.1213"/>
+  <object type="move" id="53" time="76" duration="1" xDisplacement="-2.8977" yDisplacement="-.7764"/>
+  <object type="move" id="54" time="76" duration="1" xDisplacement="-2.8977" yDisplacement=".7764"/>
+  <object type="move" id="55" time="76" duration="1" xDisplacement="-2.1213" yDisplacement="2.1213"/>
+
+  <object type="move" id="57" time="76" duration="1" xDisplacement="-.3382" yDisplacement="1.44885"/>
+  <object type="move" id="58" time="76" duration="1" xDisplacement=".3382" yDisplacement="1.44885"/>
+  <object type="move" id="59" time="76" duration="1" xDisplacement="1.06065" yDisplacement="1.06065"/>
+  <object type="move" id="60" time="76" duration="1" xDisplacement="1.44885" yDisplacement=".3382"/>
+  <object type="move" id="61" time="76" duration="1" xDisplacement="1.44885" yDisplacement="-.3382"/>
+  <object type="move" id="62" time="76" duration="1" xDisplacement="1.06065" yDisplacement="-1.06065"/>
+  <object type="move" id="63" time="76" duration="1" xDisplacement=".3382" yDisplacement="-1.44885"/>
+  <object type="move" id="64" time="76" duration="1" xDisplacement="-.3382" yDisplacement="-1.44885"/>
+  <object type="move" id="65" time="76" duration="1" xDisplacement="-1.06065" yDisplacement="-1.06065"/>
+  <object type="move" id="66" time="76" duration="1" xDisplacement="-1.44885" yDisplacement="-.3382"/>
+  <object type="move" id="67" time="76" duration="1" xDisplacement="-1.44885" yDisplacement=".3382"/>
+  <object type="move" id="68" time="76" duration="1" xDisplacement="-1.06065" yDisplacement="1.06065"/>
+
+  <object type="create" xpos="4.67" ypos="0" zpos="-4" length="1" height="1" rotation="90" red="0" green="0" blue="0" alpha="0" id="0" time="75" blending="false" group="71"/>
+  <object type="create" xpos="-4.67" ypos="0" zpos="-4" length="1" height="1" rotation="-90" red="0" green="0" blue="0" alpha="0" id="0" time="75" blending="false" group="71"/>
+  <object type="alpha" time="81.6" fadetime=".1" alpha="255" id="71"/>
+
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="82" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="82.1" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="83.8" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="83.9" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="85.2" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="85.3" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="87" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="87.1" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="88.4" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="88.5" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="90.2" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="90.3" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="91.6" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="91.7" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="93.4" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="93.5" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="94.8" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="94.9" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="96.6" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="96.7" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="98" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="98.1" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="99.8" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="99.9" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="101.2" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="101.3" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="103" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="103.1" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="104.4" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="104.5" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="106.2" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="106.3" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="107.6" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="107.7" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="109.4" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="109.5" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="110.8" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="110.9" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="112.6" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="112.7" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="114" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="114.1" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="115.8" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="115.9" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="117.2" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="117.3" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="119" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="119.1" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="120.4" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="120.5" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="122.2" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="122.3" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="123.6" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="123.7" alpha="255" id="71"/>
+
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="125.5" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="125.6" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="126.8" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="126.9" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="128.6" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="128.7" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="130.1" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="130.2" alpha="255" id="71"/>
+  <color object="group" red="255" green="255" blue="255" fadetime=".1" time="131.6" alpha="255" id="71"/>
+  <color object="group" red="0" green="0" blue="0" fadetime=".5" time="131.7" alpha="255" id="71"/>
+</song>

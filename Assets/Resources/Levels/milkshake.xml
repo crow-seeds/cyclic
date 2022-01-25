@@ -1,0 +1,571 @@
+<song>
+  <info world="3" level="3" MP3Name="milkshake" endtime="153.7" name="Milkshake"/>
+  <color object="circle" red="0" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="background" red="48" green="65" blue="65" fadetime="0" time="0"/>
+  <color object="shooter" red="0" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="bullets" red="0" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="overlay" red="0" green="0" blue="0" fadetime="4" time="0" alpha="0"/>
+  <object type="style" id="1" time="0"/>
+    
+  <shoot type="multishot" angle="-3" time="0" speed="4" amount="3" delay=".3"/>
+  <shoot type="multishot" angle="3" time="0" speed="4" amount="3" delay=".3"/>
+
+  <shoot type="multishot" angle="-18" time="0.9" speed="4" amount="5" delay=".3"/>
+  <shoot type="multishot" angle="-12" time="0.9" speed="4" amount="5" delay=".3"/>
+
+  <shoot type="single" angle="-30" time="2.8" speed="4"/>
+  <shoot type="single" angle="-36" time="2.8" speed="4"/>
+
+  <spike type="spread" angle="-72" time="3.2" speed="4" amount="7" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="-33" time="3.2" speed="4" amount="7" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="-52.5" time="3.2" speed="4" amount="3" delay=".466" spacing="23.333" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="8" time="5" speed="4" amount="5" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <spike type="spread" angle="47" time="5" speed="4" amount="5" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="27.5" time="5" speed="4" amount="3" delay=".333" spacing="-16.666" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="-32" time="6.1" speed="4" amount="5" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="7" time="6.1" speed="4" amount="5" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="-12.5" time="6.1" speed="4" amount="3" delay=".333" spacing="16.666" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="-2" time="7.2" speed="4" amount="3" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <spike type="spread" angle="37" time="7.2" speed="4" amount="3" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="17.5" time="7.2" speed="4" amount="2" delay=".4" spacing="-20" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="-72" time="8.7" speed="3.5" amount="7" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <spike type="spread" angle="-33" time="8.7" speed="3.5" amount="7" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="-52.5" time="8.7" speed="3.5" amount="3" delay=".466" spacing="-23.333" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="-122" time="10.5" speed="4" amount="5" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="-83" time="10.5" speed="4" amount="5" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="-102.5" time="10.5" speed="4" amount="3" delay=".333" spacing="16.666" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="-82" time="11.6" speed="4" amount="5" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <spike type="spread" angle="-43" time="11.6" speed="4" amount="5" delay=".2" spacing="-10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="-62.5" time="11.6" speed="4" amount="3" delay=".333" spacing="-16.666" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="-112" time="12.7" speed="4" amount="3" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="-73" time="12.7" speed="4" amount="3" delay=".2" spacing="10" direction="CounterClockwise"/>
+  <shoot type="spread" angle="-92.5" time="12.7" speed="4" amount="2" delay=".4" spacing="20" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="180" time="14.5" speed="5" amount="180" delay=".08" spacing="47" direction="Clockwise"/>
+  <spike type="spread" angle="180" time="19.3" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/> 
+  <spike type="spread" angle="-45" time="19.6" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/> 
+  <spike type="spread" angle="45" time="19.7" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/> 
+  <spike type="spread" angle="135" time="19.9" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/> 
+  <spike type="spread" angle="-90" time="20.1" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-45" time="20.1" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/> 
+  <spike type="spread" angle="-135" time="21" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/> 
+  <spike type="spread" angle="0" time="21.2" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="180" time="21.2" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/> 
+  <spike type="spread" angle="45" time="21.9" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="135" time="22.2" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-45" time="22.2" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-135" time="22.8" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="90" time="23.1" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="0" time="24.7" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-90" time="25.2" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-45" time="25.5" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="180" time="26.1" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="45" time="26.1" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-90" time="26.1" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="135" time="26.6" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="135" time="26.6" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-135" time="26.8" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="-45" time="27.5" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="90" time="27.8" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="0" time="28.4" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+  <spike type="spread" angle="180" time="28.8" speed="2.5" amount="4" delay="0" spacing="9" direction="Clockwise"/>
+
+  <object type="create" xpos="7.65" ypos=".5" zpos="-5" length="7" height="15" rotation="22" red="0" green="0" blue="0" alpha="255" id="1" time="30.12"/> 
+  <object type="create" xpos="2.62" ypos="-2.73" zpos="-5.1" length="15" height="15" rotation="-30" red="0" green="0" blue="0" alpha="255" id="1" time="30.32"/>
+  <object type="create" xpos="-4" ypos="0" zpos="-5.2" length="12" height="12" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="30.6"/> 
+
+  <object type="create" xpos="7.88" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31"/> 
+  <object type="create" xpos="5.88" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.1"/>
+  <object type="create" xpos="3.88" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.2"/> 
+  <object type="create" xpos="1.88" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.3"/> 
+  <object type="create" xpos="-.12" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.4"/> 
+  <object type="create" xpos="-2.12" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.5"/> 
+  <object type="create" xpos="-4.12" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.6"/> 
+  <object type="create" xpos="-6.12" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.7"/> 
+  <object type="create" xpos="-8.12" ypos="0" zpos="-6" length="2" height="12" rotation="0" red="255" green="255" blue="255" alpha="255" id="1" time="31.8"/> 
+
+  <object type="create" xpos="0" ypos="-3.75" zpos="-7" length="18" height="2.5" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="31.6"/> 
+  <object type="create" xpos="0" ypos="3.75" zpos="-7" length="18" height="2.5" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="32"/>
+  <object type="create" xpos="12" ypos="0" zpos="-7" length="18" height="8" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="32.4"/>
+  <object type="create" xpos="-12" ypos="0" zpos="-7" length="18" height="8" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="32.7"/>
+  <object type="create" xpos="0" ypos="0" zpos="-7" length="18" height="8" rotation="0" red="0" green="0" blue="0" alpha="255" id="1" time="32.9"/>
+  
+  <color object="overlay" red="0" green="255" blue="255" alpha="180" time="33.4" fadetime=".1"/>
+  <color object="overlay" red="0" green="255" blue="255" alpha="20" time="33.5" fadetime=".4"/>
+  <color object="background" red="0" green="0" blue="0" time="33" fadetime="0"/>
+  <object type="delete" lower="0" upper="16" time="33.5"/>
+  
+  <object type="create" xpos="-8" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="-7" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="-6" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="-5" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="-4" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="-3" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="-2" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="-1" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="1" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="2" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="3" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="4" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="5" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="6" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="7" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+  <object type="create" xpos="8" ypos="0" zpos="0" length=".1" height="12" rotation="0" red="255" green="255" blue="255" alpha="32" id="1" time="33"/>
+
+  <object type="create" xpos="0" ypos="4.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="3.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="2.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="1.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="0.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="-0.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="-1.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="-2.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="-3.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+  <object type="create" xpos="0" ypos="-4.5" zpos="-.01" length=".1" height="20" rotation="90" red="29" green="49" blue="49" alpha="255" id="1" time="33"/>
+
+  <object type="createText" xpos="-790" ypos="-445" time="33" rotation="0" red="255" green="255" blue="255" alpha="0" zpos="-3" text="Press [Space] or [Up] To Swap"/>
+  <color object="object" red="255" green="255" blue="255" alpha="255" time="33.51" fadetime="1" id="27"/>
+  <color object="object" red="255" green="255" blue="255" alpha="0" time="45" fadetime="1" id="27"/>
+  
+  <spike type="multishot" angle="90" speed="2" time="33.5" amount="50" delay=".5"/>
+  <spike type="multishot" angle="-90" speed="2" time="33.5" amount="50" delay=".5"/>
+  
+  <spike type="cone" buffer="15" speed="3" time="33.9" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="34.2" amount="4"/>
+  <spike type="cone" buffer="15" speed="3" time="34.5" amount="3"/>
+  <spike type="cone" buffer="15" speed="3.4" time="34.9" amount="6"/>
+
+  <spike type="spread" angle="90" speed="2.5" time="35.25" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="-90" speed="2.5" time="35.6" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+
+  <spike type="cone" buffer="15" speed="3" time="37.4" amount="4"/>
+  <spike type="cone" buffer="15" speed="3" time="37.6" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="37.8" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="38.1" amount="4"/>
+  <spike type="cone" buffer="15" speed="3.4" time="38.5" amount="5"/>
+
+  <spike type="spread" angle="110" speed="2.5" time="39" spacing="16" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="-80" speed="2.5" time="39.4" spacing="16" delay="0" amount="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="110" speed="2.5" time="39.8" spacing="16" delay="0" amount="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="-80" speed="2.5" time="40.3" spacing="16" delay="0" amount="10" direction="CounterClockwise"/> 
+
+  <spike type="cone" buffer="15" speed="3" time="41.4" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="41.7" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="41.9" amount="4"/>
+  <spike type="cone" buffer="15" speed="3" time="42.1" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="42.4" amount="4"/>
+  <spike type="cone" buffer="15" speed="3.2" time="42.7" amount="3"/>
+  <spike type="cone" buffer="15" speed="3.2" time="42.9" amount="4"/>
+  <spike type="cone" buffer="15" speed="3.2" time="43.1" amount="3"/>
+  <spike type="cone" buffer="15" speed="3.2" time="43.4" amount="4"/>
+  <spike type="cone" buffer="30" speed="3.4" time="43.8" amount="7"/>
+  
+  <spike type="spread" speed="4" time="44.1" angle="90" direction="CounterClockwise" spacing="16" delay=".08" amount="36"/>
+  
+  <spike type="spread" angle="0" speed="3.2" time="47.2" spacing="18" delay="0" amount="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="180" speed="3.2" time="47.5" spacing="18" delay="0" amount="10" direction="CounterClockwise"/>
+
+  <spike type="cone" buffer="15" speed="3" time="48.3" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="48.6" amount="4"/>
+  <spike type="cone" buffer="15" speed="3" time="48.8" amount="4"/>
+  <spike type="cone" buffer="15" speed="3" time="49.2" amount="3"/>
+  <spike type="cone" buffer="15" speed="3.4" time="49.6" amount="5"/>
+
+  <spike type="spread" angle="0" speed="2.35" time="50" spacing="18" delay="0" amount="5" direction="CounterClockwise"/>
+  <spike type="spread" angle="180" speed="2.35" time="50" spacing="18" delay="0" amount="5" direction="CounterClockwise"/>
+  <spike type="spread" angle="90" speed="2.35" time="50.4" spacing="18" delay="0" amount="5" direction="CounterClockwise"/>
+  <spike type="spread" angle="270" speed="2.35" time="50.4" spacing="18" delay="0" amount="5" direction="CounterClockwise"/>
+
+  <spike type="cone" buffer="15" speed="3" time="51.9" amount="4"/>
+  <spike type="cone" buffer="15" speed="3" time="52.1" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="52.3" amount="3"/>
+  <spike type="cone" buffer="15" speed="3" time="52.6" amount="4"/>
+  <spike type="cone" buffer="15" speed="3" time="52.9" amount="5"/>
+
+  <spike type="spread" angle="90" speed="2.5" time="53.7" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="-90" speed="2.5" time="54.1" spacing="18" delay="0" amount="10" direction="CounterClockwise"/>
+  <spike type="spread" angle="90" speed="2.5" time="54.5" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="-90" speed="2.5" time="54.9" spacing="18" delay="0" amount="10" direction="CounterClockwise"/>
+
+  <spike type="cone" buffer="12" speed="3.4" time="55.5" amount="4"/>
+  <spike type="cone" buffer="12" speed="3.4" time="55.9" amount="3"/>
+  <spike type="cone" buffer="12" speed="3.4" time="56.1" amount="4"/>
+  <spike type="cone" buffer="12" speed="3.4" time="56.4" amount="3"/>
+  <spike type="cone" buffer="12" speed="3.4" time="56.7" amount="4"/>
+
+  <spike type="cone" buffer="12" speed="3.4" time="57.4" amount="4"/>
+  <spike type="cone" buffer="12" speed="3.4" time="57.7" amount="4"/>
+  <spike type="cone" buffer="12" speed="3.4" time="58" amount="4"/>
+  <spike type="cone" buffer="12" speed="3.4" time="58.3" amount="4"/>
+  <spike type="cone" buffer="12" speed="3.4" time="58.6" amount="7"/>
+
+  <spike type="spread" speed="4.5" time="59" angle="-90" direction="Clockwise" spacing="17" delay=".05" amount="70"/>
+  <color object="overlay" red="255" green="255" blue="255" alpha="255" time="59" fadetime="4"/>
+
+  <object type="delete" lower="0" upper="27" time="63.1"/>
+
+  <object type="create" xpos="0" ypos="-3.39" zpos="-3" length="1.2" height="0.44" rotation="0" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="0" ypos="3.39" zpos="-3" length="1.2" height="-0.44" rotation="0" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="-3.28" ypos="3.39" zpos="-3" length="1.2" height="-0.44" rotation="90" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="3.28" ypos="3.39" zpos="-3" length="1.2" height="-0.44" rotation="-90" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="-0.39" ypos="0.08" zpos="-3" length="0.15" height="0.2" rotation="-90" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="0.39" ypos="0.08" zpos="-3" length="0.15" height="0.2" rotation="90" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="0" ypos="-0.19" zpos="-3" length="0.15" height="0.2" rotation="0" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="0" ypos="0.19" zpos="-3" length="0.15" height="0.2" rotation="180" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="-7.23" ypos="3.39" zpos="-3" length="1.2" height="-0.44" rotation="-90" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+  <object type="create" xpos="7.23" ypos="3.39" zpos="-3" length="1.2" height="-0.44" rotation="90" red="255" green="255" blue="255" alpha="255" id="0" time="63.1"/>
+
+  <color object="circle" red="119" green="82" blue="48" time="63.1" fadetime="0"/>
+  <color object="shooter" red="119" green="82" blue="48" time="63.1" fadetime="0"/>
+  <color object="bullets" red="119" green="82" blue="48" time="63.1" fadetime="0"/>
+  <color object="background" red="255" green="255" blue="255" time="63.1" fadetime="0"/>
+
+  <color object="overlay" red="255" green="255" blue="255" alpha="0" fadetime=".5" time="63.5"/>
+
+  <object type="style" id="0" time="63.1"/>
+  
+  <shoot type="single" angle="0" speed="2" time="63.5"/>
+  <spike type="single" angle="0" speed="2" time="63.7"/>
+
+  <shoot type="spread" angle="-20" speed="2" time="64.3" amount="3" direction="Clockwise"  delay=".5" spacing="15"/>
+  <spike type="spread" angle="-20" speed="2" time="64.5" amount="3" direction="Clockwise"  delay=".5" spacing="15"/>
+
+  <shoot type="single" angle="-45" speed="2" time="66.8"/>
+  <spike type="single" angle="-45" speed="2" time="66.5"/>
+
+  <shoot type="spread" angle="-15" speed="2" time="68.1" amount="3" direction="CounterClockwise"  delay=".5" spacing="25"/>
+  <spike type="spread" angle="-15" speed="2" time="68.3" amount="3" direction="CounterClockwise"  delay=".5" spacing="25"/>
+
+  <shoot type="single" angle="90" speed="2" time="70.5"/>
+  <spike type="single" angle="90" speed="2" time="70.2"/>
+
+  <shoot type="zigshot" angle="120" speed="2" time="72" amount="3" spacing="180" delay=".5"/>
+  <spike type="zigshot" angle="120" speed="2" time="72.3" amount="3" spacing="180" delay=".5"/>
+
+  <shoot type="spread" angle="-60" speed="3" time="74.95" amount="18" direction="CounterClockwise" delay=".134204" spacing="20"/>
+  <spike type="spread" angle="-60" speed="3" time="75.2" amount="18" direction="CounterClockwise" delay=".134204" spacing="20"/>
+
+  <shoot type="zigshot" angle="-45" speed="3.4" time="78" amount="3" spacing="20" delay=".3"/>
+  <shoot type="zigshot" angle="-40" speed="3.4" time="78" amount="3" spacing="20" delay=".3"/>
+
+  <shoot type="zigshot" angle="-65" speed="3.4" time="79.2" amount="3" spacing="20" delay=".3"/>
+  <shoot type="zigshot" angle="-60" speed="3.4" time="79.2" amount="3" spacing="20" delay=".3"/>
+  
+  <shoot type="multishot" angle="-65" time="80.2" amount="2" delay=".3" speed="3.4"/>
+  <shoot type="multishot" angle="-60" time="80.2" amount="2" delay=".3" speed="3.4"/>
+
+  <shoot type="spread" angle="-45" speed="3.4" time="81.1" amount="3" direction="CounterClockwise" delay=".3" spacing="20"/>
+  <shoot type="spread" angle="-40" speed="3.4" time="81.1" amount="3" direction="CounterClockwise" delay=".3" spacing="20"/>
+
+  <shoot type="zigshot" angle="-40" speed="3.4" time="82.2" amount="3" spacing="-20" delay=".3"/>
+  <shoot type="zigshot" angle="-45" speed="3.4" time="82.2" amount="3" spacing="-20" delay=".3"/>
+
+  <shoot type="spread" angle="-30" speed="3.4" time="83.4" amount="3" spacing="23" direction="CounterClockwise" delay=".3"/>
+  <shoot type="spread" angle="-25" speed="3.4" time="83.4" amount="3" spacing="23" direction="CounterClockwise" delay=".3"/>
+  
+  <spike type="aim" buffer="0" time="86.3" speed="5"/>
+  <spike type="cone" buffer="10" time="86.4" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="86.6" speed="5"/>
+  <spike type="cone" buffer="10" time="86.7" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="86.9" speed="5"/>
+  <spike type="cone" buffer="10" time="87" speed="5" amount="2"/>
+
+  
+  <spike type="aim" buffer="0" time="87.6" speed="5"/>
+  <spike type="cone" buffer="10" time="87.7" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="87.9" speed="5"/>
+  <spike type="cone" buffer="10" time="88" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="88.2" speed="5"/>
+  <spike type="cone" buffer="10" time="88.3" speed="5" amount="2"/>
+  
+
+  <spike type="aim" buffer="0" time="88.9" speed="5"/>
+  <spike type="cone" buffer="10" time="89" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="89.2" speed="5"/>
+  <spike type="cone" buffer="10" time="89.3" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="89.5" speed="5"/>
+  <spike type="cone" buffer="10" time="89.6" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="90.2" speed="5"/>
+  <spike type="cone" buffer="10" time="90.3" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="90.5" speed="5"/>
+  <spike type="cone" buffer="10" time="90.6" speed="5" amount="2"/>
+
+  <spike type="aim" buffer="0" time="90.8" speed="5"/>
+  <spike type="cone" buffer="10" time="90.9" speed="5" amount="2"/>
+
+  <spike type="spread" angle="90" speed="4" time="85.5" spacing="24" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="90" speed="4" time="85.75" spacing="24" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="90" speed="4" time="86" spacing="24" delay="0" amount="10" direction="CounterClockwise"/> 
+  
+  
+  <spike type="spread" angle="90" speed="4" time="87.75" spacing="24" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="90" speed="4" time="89.25" spacing="24" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="90" speed="4" time="89.5" spacing="24" delay="0" amount="9" direction="CounterClockwise"/>
+  <shoot type="hexagon" angle="306" speed="4" time="89.5"/>
+  <spike type="spread" angle="90" speed="4" time="89.75" spacing="24" delay="0" amount="10" direction="CounterClockwise"/> 
+
+  <spike type="spread" angle="50" speed="4" time="80.25" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="50" speed="4" time="81.65" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="50" speed="4" time="81.9" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="50" speed="4" time="81.15" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+  <spike type="spread" angle="50" speed="4" time="84" spacing="18" delay="0" amount="10" direction="CounterClockwise"/> 
+
+  <color object="overlay" red="255" green="255" blue="255" alpha="255" fadetime=".1" time="76.4"/> 
+  <color object="overlay" red="255" green="255" blue="255" alpha="0" fadetime="1" time="76.6"/> 
+  <color object="circle" red="129" green="180" blue="226" time="76.61" fadetime="0"/>
+  <color object="shooter" red="129" green="180" blue="226" time="76.61" fadetime="0"/>
+  <color object="bullets" red="129" green="180" blue="226" time="76.61" fadetime="0"/>
+
+  <color object="object" id="0" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="1" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="2" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="3" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="4" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="5" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="6" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="7" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="8" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="object" id="9" red="255" green="255" blue="255" alpha="0" time="91.2" fadetime="1"/>
+  <color object="shooter" red="171" green="32" blue="253" time="91.2" fadetime="1"/>
+  <color object="circle" red="171" green="32" blue="253" time="91.2" fadetime="1"/>
+  <color object="bullets" red="171" green="32" blue="253" time="91.2" fadetime="1"/>
+  <color object="background" red="0" green="0" blue="0" time="92.4" fadetime="1.6"/>
+
+  <shoot type="zigshot" angle="40" speed="4.5" time="91.5" amount="3" spacing="9" delay=".1"/>
+  <shoot type="spread" angle="30" speed="4.5" time="92" amount="2" spacing="14" delay=".2" direction="Clockwise"/>
+
+  <spike type="spread" angle="0" speed="4.5" time="93.5" amount="18" spacing="20" delay="0" direction="Clockwise"/>
+  
+  <spike type="spread" angle="0" speed="4.5" time="94" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="4" speed="4.5" time="94" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="8" speed="4.5" time="94" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+
+  <spike type="spread" angle="20" speed="4.5" time="94.3" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="24" speed="4.5" time="94.3" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="28" speed="4.5" time="94.3" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+
+  <spike type="spread" angle="10" speed="4.5" time="95" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="14" speed="4.5" time="95" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="18" speed="4.5" time="95" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+
+  <spike type="spread" angle="30" speed="4.5" time="95.3" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="34" speed="4.5" time="95.3" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="38" speed="4.5" time="95.3" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+ 
+  <spike type="spread" angle="90" speed="4.5" time="96.2" amount="6" spacing="30" delay=".1" direction="Clockwise"/>
+  <spike type="spread" angle="94" speed="4.5" time="96.2" amount="6" spacing="30" delay=".1" direction="Clockwise"/>
+  <spike type="spread" angle="86" speed="4.5" time="96.2" amount="6" spacing="30" delay=".1" direction="Clockwise"/>
+
+  <spike type="spread" angle="-90" speed="4.5" time="96.2" amount="6" spacing="30" delay=".1" direction="Clockwise"/>
+  <spike type="spread" angle="-94" speed="4.5" time="96.2" amount="6" spacing="30" delay=".1" direction="Clockwise"/>
+  <spike type="spread" angle="-86" speed="4.5" time="96.2" amount="6" spacing="30" delay=".1" direction="Clockwise"/>
+
+  <spike type="spread" angle="30" speed="4.5" time="97.3" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="35" speed="4.5" time="97.3" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="25" speed="4.5" time="97.3" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+
+  <spike type="spread" angle="60" speed="4.5" time="97.5" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="65" speed="4.5" time="97.5" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="55" speed="4.5" time="97.5" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+
+  <spike type="spread" angle="30" speed="4.5" time="97.7" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="35" speed="4.5" time="97.7" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="25" speed="4.5" time="97.7" amount="5" spacing="72" delay="0" direction="Clockwise"/>
+
+  <spike type="cone" buffer="10" speed="5" amount="5" time="99"/> 
+  <spike type="cone" buffer="10" speed="5" amount="5" time="99.2"/> 
+  <spike type="cone" buffer="10" speed="5" amount="5" time="99.4"/> 
+  <spike type="cone" buffer="10" speed="5" amount="5" time="99.8"/> 
+  <spike type="cone" buffer="10" speed="5" amount="5" time="100"/> 
+  <spike type="cone" buffer="10" speed="5" amount="5" time="100.2"/> 
+
+  <spike type="spread" angle="70" speed="4.5" time="101.4" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="-20" speed="4.5" time="101.4" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="-110" speed="4.5" time="101.4" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="160" speed="4.5" time="101.4" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="45" speed="4.5" time="101.4" amount="4" spacing="90" delay="0" direction="CounterClockwise"/>
+
+  <spike type="spread" angle="115" speed="4.5" time="102.15" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="25" speed="4.5" time="102.15" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="-75" speed="4.5" time="102.15" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="205" speed="4.5" time="102.15" amount="5" spacing="10" delay="0" direction="CounterClockwise"/>
+  <spike type="spread" angle="90" speed="4.5" time="102.15" amount="4" spacing="90" delay="0" direction="CounterClockwise"/>
+
+  <shoot type="aim" buffer="15" speed="4.5" time="103.5"/>
+  <shoot type="aim" buffer="-15" speed="4.5" time="103.75"/>
+  <shoot type="aim" buffer="15" speed="4.5" time="104"/>
+
+  <spike type="spread" speed="4.5" time="104.4" angle="0" direction="CounterClockwise" spacing="17" delay=".1" amount="15"/>
+  <spike type="spread" speed="4.5" time="104.4" angle="120" direction="CounterClockwise" spacing="17" delay=".1" amount="15"/>
+  <spike type="spread" speed="4.5" time="104.4" angle="240" direction="CounterClockwise" spacing="17" delay=".1" amount="15"/>
+
+  <spike type="zigshot" speed="4.5" time="105.9" angle="-15" amount="20" delay=".1" spacing="15"/>
+  <spike type="zigshot" speed="4.5" time="105.9" angle="105" amount="20" delay=".1" spacing="15"/>
+  <spike type="zigshot" speed="4.5" time="105.9" angle="-135" amount="20" delay=".1" spacing="15"/>
+
+  <spike type="cone" speed="5" time="107" buffer="120" amount="3"/>
+  <spike type="cone" speed="5" time="107.5" buffer="120" amount="3"/>
+  <spike type="cone" speed="5" time="108" buffer="120" amount="3"/>
+  <shoot type="aim" speed="5" time="108.5" buffer="0"/>
+  
+  <spike type="cone" speed="3" time="109" buffer="15" amount="19"/>
+  <spike type="aim" buffer="180" time="109" speed="3"/>
+  <spike type="cone" speed="3" time="110" buffer="15" amount="19"/>
+  <spike type="aim" buffer="180" time="110" speed="3"/>
+  <spike type="cone" speed="4.5" time="110.7" amount="5" buffer="10"/>
+  <spike type="cone" speed="4.5" time="111" amount="5" buffer="10"/>
+  <spike type="cone" speed="4.5" time="111.3" amount="5" buffer="10"/>
+
+  <shoot type="aim" speed="5" time="111.7" buffer="0"/>
+  <shoot type="aim" speed="5" time="111.9" buffer="0"/>
+  <shoot type="aim" speed="5" time="112.1" buffer="0"/>
+
+  <spike type="spread" speed="4.5" time="113.4" angle="0" spacing="45" amount="8" direction="Clockwise" delay="0"/>
+  <spike type="spread" speed="4.5" time="113.7" angle="22.5" spacing="45" amount="8" direction="Clockwise" delay="0"/>
+  <spike type="spread" speed="4.5" time="114" angle="0" spacing="45" amount="8" direction="Clockwise" delay="0"/>
+  <spike type="spread" speed="4.5" time="114.3" angle="22.5" spacing="45" amount="8" direction="Clockwise" delay="0"/>
+  <spike type="spread" speed="4.5" time="114.6" angle="0" spacing="45" amount="8" direction="Clockwise" delay="0"/>
+  <spike type="spread" speed="4.5" time="114.9" angle="22.5" spacing="45" amount="8" direction="Clockwise" delay="0"/>
+  <spike type="spread" speed="4.5" time="115.2" angle="0" spacing="45" amount="8" direction="Clockwise" delay="0"/>
+
+  <spike type="cone" speed="3.5" time="115.8" amount="3" buffer="10"/>
+  <shoot type="aim" speed="3" time="115.8" buffer="0"/>
+
+  <spike type="cone" speed="3.5" time="116.8" amount="3" buffer="10"/>
+  <shoot type="aim" speed="3" time="116.8" buffer="0"/>
+  
+  <shoot type="aim" speed="3" time="117.2" buffer="0"/>
+  <shoot type="aim" speed="3" time="117.5" buffer="10"/>
+  <shoot type="aim" speed="3" time="117.8" buffer="20"/>
+  <shoot type="aim" speed="3" time="118.1" buffer="30"/>
+
+  <spike type="spread" speed="4" time="119" amount="18" angle="0" direction="CounterClockwise" delay=".2" spacing="18"/>
+  <spike type="spread" speed="4" time="119" amount="18" angle="180" direction="CounterClockwise" delay=".2" spacing="18"/>
+
+  <shoot type="aim" speed="4.5" time="119.5" buffer="40"/>
+  <shoot type="aim" speed="4.5" time="120" buffer="100"/>
+  <shoot type="aim" speed="4.5" time="120.5" buffer="100"/>
+  <shoot type="aim" speed="4.5" time="121" buffer="100"/>
+  <shoot type="aim" speed="4.5" time="121.5" buffer="100"/>
+
+  <spike type="spread" angle="0" speed="4.5" time="123" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="10" speed="4.5" time="123" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="20" speed="4.5" time="123" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+
+  <spike type="spread" angle="20" speed="4.5" time="123.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="30" speed="4.5" time="123.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="40" speed="4.5" time="123.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+
+  <spike type="spread" angle="40" speed="4.5" time="124" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="50" speed="4.5" time="124" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="60" speed="4.5" time="124" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+
+  <spike type="spread" angle="20" speed="4.5" time="124.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="30" speed="4.5" time="124.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="40" speed="4.5" time="124.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+
+  <spike type="spread" angle="40" speed="4.5" time="125" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="50" speed="4.5" time="125" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="60" speed="4.5" time="125" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+
+  <shoot type="heptagon" angle="0" speed="2" time="124"/>
+  
+  <spike type="spread" angle="20" speed="4.5" time="125.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="30" speed="4.5" time="125.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+  <spike type="spread" angle="40" speed="4.5" time="125.5" amount="9" spacing="50" direction="CounterClockwise" delay="0"/>
+
+  <spike type="zigshot" angle="30" speed="5" time="125.7" amount="7" spacing="10" delay=".15"/>
+  <spike type="zigshot" angle="120" speed="5" time="125.7" amount="7" spacing="10" delay=".15"/>
+  <spike type="zigshot" angle="-60" speed="5" time="125.7" amount="7" spacing="10" delay=".15"/>
+  <spike type="zigshot" angle="210" speed="5" time="125.7" amount="7" spacing="10" delay=".15"/>
+
+  <spike type="spread" angle="0" speed="4.5" time="127" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="0" speed="4.5" time="127.15" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="0" speed="4.5" time="127.3" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+
+  <spike type="spread" angle="20" speed="4.5" time="127.5" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="20" speed="4.5" time="127.65" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="20" speed="4.5" time="127.8" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+
+  <spike type="spread" angle="0" speed="4.5" time="128" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="0" speed="4.5" time="128.15" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="0" speed="4.5" time="128.3" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+
+  <spike type="spread" angle="20" speed="4.5" time="128.5" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="20" speed="4.5" time="128.65" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+  <spike type="spread" angle="20" speed="4.5" time="128.8" amount="9" spacing="40" delay="0" direction="CounterClickwise"/>
+
+  <spike type="spread" amount="12" spacing="15" delay="0" direction="Clockwise" angle="0" speed="5" time="129.2"/>
+  <spike type="spread" amount="12" spacing="15" delay="0" direction="Clockwise" angle="180" speed="5" time="129.6"/>
+  <spike type="spread" amount="40" spacing="19" delay=".06" direction="Clockwise" angle="0" speed="5" time="130.2"/>
+  <shoot type="aim" speed="5" time="133.3" buffer="-30"/>
+  <shoot type="aim" speed="5" time="133.5" buffer="-30"/>
+  <shoot type="aim" speed="5" time="133.7" buffer="-30"/>
+  
+  <spike type="spread" angle="0" speed="4.5" time="134.8" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="7" speed="4.5" time="134.8" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="14" speed="4.5" time="134.8" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+
+  <spike type="spread" angle="20" speed="4.5" time="135.6" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="27" speed="4.5" time="135.6" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+  <spike type="spread" angle="34" speed="4.5" time="135.6" amount="9" spacing="40" delay="0" direction="Clockwise"/>
+
+  <shoot type="aim" time="135.7" speed="3" buffer="0"/>
+  <shoot type="aim" time="135.9" speed="3" buffer="10"/>
+  <shoot type="aim" time="136.1" speed="3" buffer="20"/>
+  <shoot type="aim" time="136.3" speed="3" buffer="10"/>
+  <shoot type="aim" time="136.5" speed="3" buffer="0"/>
+  <shoot type="aim" time="136.7" speed="3" buffer="-10"/>
+  <shoot type="aim" time="136.9" speed="3" buffer="-10"/>
+  <shoot type="aim" time="137.1" speed="3" buffer="0"/>
+  <shoot type="aim" time="137.3" speed="3" buffer="0"/>
+
+  <spike type="cone" time="139.6" speed="5.5" buffer="14" amount="3"/>
+  <spike type="cone" time="140" speed="5.5" buffer="14" amount="4"/>
+  <spike type="cone" time="140.6" speed="5.5" buffer="14" amount="3"/>
+  <spike type="cone" time="141" speed="5.5" buffer="14" amount="4"/>
+  <spike type="cone" time="141.2" speed="5.5" buffer="14" amount="5"/>
+  <spike type="cone" time="141.4" speed="5.5" buffer="14" amount="5"/>
+
+  <spike type="cone" time="142.8" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="143.3" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="144.4" speed="4" buffer="10" amount="5"/>
+  <spike type="cone" time="144.55" speed="4" buffer="10" amount="5"/>
+  <spike type="cone" time="144.7" speed="4" buffer="10" amount="5"/>
+  <spike type="cone" time="144.85" speed="4" buffer="10" amount="5"/>
+  
+  <spike type="cone" time="146.2" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="146.6" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="147" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="147.4" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="147.8" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="148.2" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="148.6" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="149" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="149.4" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="149.8" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="150.2" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="150.6" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="151" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="151.4" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="151.8" speed="4" buffer="27.7" amount="13"/>
+  <spike type="cone" time="152.2" speed="4" buffer="27.7" amount="13"/>
+
+  
+</song>

@@ -1,0 +1,97 @@
+<song>
+  <info world="2" level="1" MP3Name="plus" endtime="73.3" name="Plus"/>
+  
+  <color object="overlay" red="0" green="0" blue="0" fadetime="0" time="0" alpha="0"/>
+  <color object="background" red="255" green="255" blue="255" fadetime="0" time="0"/>
+  <color object="circle" red="0" green="0" blue="0" fadetime="0" time="0"/>
+  <color object="shooter" red="0" green="0" blue="0" fadetime="0" time="0"/>
+  <color object="bullets" red="0" green="0" blue="0" fadetime="0" time="0"/>
+
+  <object type="bulletcollision"/>
+  
+  <shoot type="multishot" angle="0" time=".1" speed="2" delay=".5" amount="3"/>
+  <shoot type="single" angle="30" speed="2" time="1.66"/>
+  <shoot type="multishot" angle="60" speed="2" time="2.4" delay=".4" amount="3"/>
+  <shoot type="multishot" angle="50" speed="2" time="3.8" delay=".2" amount="2"/>
+  <shoot type="multishot" angle="60" speed="2" time="4.4" delay=".4" amount="3"/>
+  <shoot type="multishot" angle="20" speed="2.4" time="6" delay=".4" amount="5"/>
+  <shoot type="multishot" angle="-40" speed="2.4" time="8.1" delay=".3" amount="5"/>
+  <shoot type="multishot" angle="-90" speed="2.4" time="9.8" delay=".3" amount="5"/>
+  <shoot type="single" angle="-60" speed="2.4" time="11.4"/>
+  <shoot type="single" angle="-55" speed="2.4" time="11.6"/>
+  <shoot type="single" angle="-70" speed="2.4" time="12"/>
+  <shoot type="single" angle="-75" speed="2.4" time="12.2"/>
+  <shoot type="single" angle="-90" speed="2.4" time="12.5"/>
+  <shoot type="single" angle="-90" speed="2.4" time="12.7"/>
+  <shoot type="multishot" angle="-120" speed="2.4" time="13.4" delay=".3" amount="5"/>
+  <shoot type="multishot" angle="-180" speed="2.4" time="15.5" delay=".32" amount="5"/>
+  <shoot type="multishot" angle="-200" speed="2.4" time="17.2" delay=".35" amount="5"/>
+  <shoot type="multishot" angle="-190" speed="2.4" time="19" delay=".3" amount="5"/>
+  <shoot type="multishot" angle="-240" speed="2.4" time="20.8" delay=".2" amount="3"/>
+  <shoot type="multishot" angle="-260" speed="2.4" time="21.5" delay=".2" amount="3"/>
+  <shoot type="multishot" angle="-280" speed="2.4" time="22.1" delay=".2" amount="3"/>
+  <shoot type="multishot" angle="-300" speed="2.4" time="22.9" delay=".2" amount="6"/>
+  <shoot type="spread" angle="-320" speed="3" time="24.4" amount="27" delay=".1341" direction="Clockwise" spacing="20"/>
+
+  <color object="background" red="0" green="0" blue="0" fadetime="1" time="29"/>
+  <color object="circle" red="255" green="255" blue="255" fadetime="1" time="29"/>
+  <color object="shooter" red="255" green="255" blue="255" fadetime="1" time="29"/>
+  <color object="bullets" red="255" green="255" blue="255" fadetime="1" time="29"/>
+
+  <shoot type="multishot" angle="130" speed="2.8" time="28.5" amount="4" delay=".3"/>
+  <shoot type="multishot" angle="90" speed="2.8" time="30" amount="4" delay=".3"/>
+  <shoot type="multishot" angle="20" speed="2.8" time="32" amount="4" delay=".3"/>
+  <shoot type="spread" angle="20" speed="3" time="33.6" amount="12" delay=".134204" direction="CounterClockwise" spacing="20"/>
+  <shoot type="multishot" angle="260" speed="2.8" time="35.5" amount="5" delay=".3"/>
+  <shoot type="multishot" angle="290" speed="2.8" time="37.2" amount="5" delay=".3"/>
+  <shoot type="multishot" angle="250" speed="2.8" time="38.8" amount="5" delay=".3"/>
+  <shoot type="spread" angle="250" speed="3" time="40.5" amount="18" delay=".13404" direction="Clockwise" spacing="20"/>
+  <shoot type="zigshot" angle="240" speed="3" time="43.3" amount="6" delay=".5" spacing="30"/>
+  <shoot type="zigshot" angle="310" speed="3" time="46.8" amount="4" delay=".4" spacing="30"/>
+  <shoot type="hexagon" angle="320" speed="3" time="48.16596"/>
+  <shoot type="spread" angle="340" speed="3" time="48.3" amount="8" delay=".13404" direction="CounterClockwise" spacing="20"/>
+  <shoot type="single" angle="180" speed="2.8" time="50"/>
+  <shoot type="multishot" angle="200" speed="2.8" time="50.7" amount="2" delay=".2"/>
+  <shoot type="single" angle="220" speed="2.8" time="51.4"/>
+  <shoot type="multishot" angle="200" speed="2.8" time="52.1" amount="2" delay=".2"/>
+  <shoot type="multishot" angle="220" speed="2.8" time="52.8" amount="2" delay=".2"/>
+  <shoot type="single" angle="270" speed="3.2" time="54"/>
+  <shoot type="spread" angle="240" speed="3" time="54.3" amount="24" delay=".13404" direction="CounterClockwise" spacing="20"/>
+
+  <color object="background" red="255" green="255" blue="255" fadetime=".5" time="65.5"/>
+  <color object="circle" red="0" green="0" blue="0" fadetime=".5" time="65.5"/>
+  <color object="shooter" red="0" green="0" blue="0" fadetime=".5" time="65.5"/>
+  <color object="bullets" red="0" green="0" blue="0" fadetime=".5" time="65.5"/>
+
+  <shoot type="zigshot" angle="270" speed="3" time="58" amount="4" delay=".3" spacing="20"/>
+  <shoot type="zigshot" angle="320" speed="3" time="59.7" amount="4" delay=".3" spacing="20"/>
+  <shoot type="zigshot" angle="270" speed="3" time="61.4" amount="4" delay=".3" spacing="20"/>
+  <shoot type="zigshot" angle="240" speed="3" time="62.9" amount="5" delay=".3" spacing="20"/>
+  <shoot type="heptagon" angle="260" speed="3" time="64.75"/>
+  <shoot type="multishot" angle="210" speed="3" time="65" amount="2" delay=".3"/>
+  <shoot type="multishot" angle="195" speed="3" time="66" amount="2" delay=".2"/>
+  <shoot type="multishot" angle="160" speed="3" time="67" amount="2" delay=".2"/>
+  <shoot type="multishot" angle="135" speed="3" time="68" amount="2" delay=".2"/>
+  <shoot type="spread" angle="140" speed="3" time="68.5" amount="6" delay=".13404" direction="CounterClockwise" spacing="20"/>
+  <shoot type="spread" angle="260" speed="3" time="69.7" amount="16" delay=".13404" direction="Clockwise" spacing="20"/>
+
+  <color object="background" red="255" green="255" blue="255" fadetime=".5" time="58"/>
+  <color object="circle" red="0" green="0" blue="0" fadetime=".5" time="58"/>
+  <color object="shooter" red="0" green="0" blue="0" fadetime=".5" time="58"/>
+  <color object="bullets" red="0" green="0" blue="0" fadetime=".5" time="58"/>
+
+  <color object="background" red="0" green="0" blue="0" fadetime=".5" time="60.5"/>
+  <color object="circle" red="255" green="255" blue="255" fadetime=".5" time="60.5"/>
+  <color object="shooter" red="255" green="255" blue="255" fadetime=".5" time="60.5"/>
+  <color object="bullets" red="255" green="255" blue="255" fadetime=".5" time="60.5"/>
+
+  <color object="background" red="255" green="255" blue="255" fadetime=".5" time="62"/>
+  <color object="circle" red="0" green="0" blue="0" fadetime=".5" time="62"/>
+  <color object="shooter" red="0" green="0" blue="0" fadetime=".5" time="62"/>
+  <color object="bullets" red="0" green="0" blue="0" fadetime=".5" time="62"/>
+
+  <color object="background" red="0" green="0" blue="0" fadetime=".5" time="64"/>
+  <color object="circle" red="255" green="255" blue="255" fadetime=".5" time="64"/>
+  <color object="shooter" red="255" green="255" blue="255" fadetime=".5" time="64"/>
+  <color object="bullets" red="255" green="255" blue="255" fadetime=".5" time="64"/>
+</song>
